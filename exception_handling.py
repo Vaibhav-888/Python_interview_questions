@@ -28,5 +28,4 @@ def calculate_invoice():
     finally:
         print("Invoice calculation complete.")
 
-if __name__ == "__main__()":
-    calculate_invoice()
+calculate_invoice()
