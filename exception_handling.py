@@ -10,10 +10,10 @@ def calculate_invoice():
             price = float(input("Enter a price:"))
             quantity = int(input("Enter a quantity: "))
 
-        if price <= 0 and quantity <= 0:
-            print("price and quantity shouldn't be zero and non-negative.")
+            if price <= 0 and quantity <= 0:
+                print("price and quantity shouldn't be zero and non-negative.")
 
-        total += price * quantity
+            total += price * quantity
 
     except ValueError as ve:
         print(f"Value Error: {ve}")

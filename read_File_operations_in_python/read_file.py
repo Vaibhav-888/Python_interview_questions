@@ -6,9 +6,9 @@ with open("/workspaces/Python_interview_questions/read_File_operations_in_python
 
         try:
             result = eval(expression)
-            print(f"At {index}: {expression} -> {result}")
+            print(f"At line {index}: {expression} -> {result}")
         except Exception as e:
-            print(f"At {index} Error while evaluating: {e}")
+            print(f"At line {index} Error while evaluating: {e}")
 
 # with open("/workspaces/Python_interview_questions/read_File_operations_in_python/operations.txt", "r") as f:
 #     for each_line in f:

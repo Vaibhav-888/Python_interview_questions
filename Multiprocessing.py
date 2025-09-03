@@ -47,6 +47,3 @@ if __name__ == "__main__":
 
     print(f"p1 process is alive: {p1.is_alive()}")
     print(f"p2 process is alive: {p2.is_alive()}")
-
-
-
