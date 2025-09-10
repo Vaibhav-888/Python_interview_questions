@@ -39,5 +39,3 @@ print(f"Flattened_list using recursion: {removeNesting(nested_list)}")
 
 # 4. Using Numpy module
 # 5. Using a Python in-build sum() method
-
-
