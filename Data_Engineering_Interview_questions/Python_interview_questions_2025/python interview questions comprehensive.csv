@@ -1,0 +1,1366 @@
+#,Topic,Sub Topic,Question,Code Snippet,Question Type,Correct Option,Answer 1,Answer 2,Answer 3,Answer 4,Reference Link
+1,Data Structures,Python Tuples,What is the output of the following piece of code when executed in the python shell?,"a={1,2,3}
+a.intersection_update({2,3,4,5})
+print(a)",MCQ,1,"{2,3}","Error, duplicate item present in list","Error, no method called intersection_update for set data type","{1,4,5}",http://www.allindiaexams.in/engineering/cse/python-mcq/tuples-sets
+2,Data Structures,Python Dictionary,Read the code shown below carefully and pick out the keys?,"d = {""john"":40, ""peter"":45}",MCQ,2,"“john”, 40, 45, and “peter”",“john” and “peter”,40 and 45,"d = (40:”john”, 45:”peter”)",https://www.sanfoundry.com/python-mcqs-dictionary-1/
+3,OOPS,Python Functions,Which Of The Following Statements Correctly Represent The Function Body In The Given Code Snippet?,"def f(number):
+  # Missing function body
+print(f(5))",MCQ,4,return “number”,print(number),print(“number”),return number,
+4,Data Structures,Python Strings,What Is The Output Of The Following Code Snippet?,"def func(message, num = 1):
+    print(message * num)
+ 
+func('Welcome')
+func('Viewers', 3)",MCQ,2,"Welcome
+Viewers","Welcome
+ViewersViewersViewers","Welcome
+Viewers,Viewers,Viewers",Welcome,
+5,Data Types,Python numbers,What Is The Output Of The Following Code Snippet?,"def func(x = 1, y = 2):
+    x = x + y
+    y += 1
+    print(x, y)
+func(y = 2, x = 1)",MCQ,4,1 3,2 3,The program has a runtime error because x and y are not defined.,3 3,
+6,OOPS,Python Functions,"What will be the output of the following code fragment?
+","def myfunc(arg, *targ, **darg):
+   print(sum(targ) + arg + sum(darg.values()))
+ 
+myfunc(37, 2, 3, g = 124, k = 34, z = 200)",MCQ,1,"400
+",42,158,163,ACP
+7,Data Structures,Python Strings,What Is The Output Of The Following Code Snippet?,"def myfunc(text, num):
+    while num > 0:
+        print(text)
+        num = num - 1
+
+myfunc('Hello', 4)",MCQ,4,"Hello
+Hello
+Hello
+Hello
+Hello","Hello
+Hello
+Hello
+Hello",invalid call,infinite loop,
+8,Data Structures,"Python Variable name, Operator and data types",What dataype is the object below ?,"L = [1, 23, ‘hello’, 1].",MCQ,1,list,dictionary,array,tuple,
+9,Data Types,Python numbers,What Is The Output Of The Following Code Snippet?,"num = 1
+def func():
+    global num
+    num = num + 3
+    print(num)
+
+func()
+print(num)",MCQ,4,1 4,4 1,The program has a runtime error because the local variable ‘num’ referenced before assignment.,4 4,
+10,Data Types,Python numbers,What Is The Output Of The Following Code Snippet?,"num = 1
+def func():
+    num = 3
+    print(num)
+
+func()
+print(num)",MCQ,2,1 3, 3 1,The program has a runtime error because x is not defined.,1 1,
+11,Data Types,Python numbers,What Is The Output Of The Following Code Snippet?,"num = 1
+def func():
+    num = num + 3
+    print(num)
+
+func()
+print(num)",MCQ,3,1 4,4 1,The program has a runtime error because the local variable ‘num’ referenced before assignment.,1 1,
+12,Interfaces & Packages,Python Lambda,"What will be the output, if you run the given code fragment using a python interpreter.","print(sum(map(lambda x: x * 2, range(1,11))))
+    
+",MCQ,1,110,100,200,210,ACP
+13,Data Structures,Python Strings,What is the output of the following?,"print('a'.maketrans('ABC', '123'))",MCQ,2,"{97: 49, 98: 50, 99: 51}","{65: 49, 66: 50, 67: 51}",{97: 49},1,
+14,Data Structures,Python Strings,What is the output of the following?,"print('xyyxyyxyxyxxy'.replace('xy', '12', 100))",MCQ,2,xyyxyyxyxyxxy,12y12y1212x12,none of the mentioned,error,
+15,Interfaces & Packages,Python Lambda,What will be the output of the given code fragment? ,"r = lambda q: q * 2
+s = lambda q: q * 3
+x = 4
+x = r(x)
+x = s(x)
+print(x)
+
+
+
+",MCQ,1,"
+24
+",48,12,16,ACP
+16,Data Structures,Python Tuples,What is the output of the code shown below?,"s=set([1, 2, 3])
+s|([4, 5])",MCQ,3,"{1, 2, 3, 4, 5}{1, 2, 3, 4, 5}","Error{1, 2, 3, 4, 5}",Run time error,ErrorError,http://www.allindiaexams.in/engineering/cse/python-mcq/tuples-sets
+17,Data Structures,Python Tuples,"What is the output of the line of code shown below, if s1= {1, 2, 3}?",s1.issubset(s1),MCQ,1,TRUE,Error,No output,FALSE,http://www.allindiaexams.in/engineering/cse/python-mcq/tuples-sets
+18,Coding Guidelines,Python Coding guidelines,Is the following code valid?,"try:
+    # Do something
+except:
+    # Do something
+else:
+    # Do something",MCQ,4,"no, there is no such thing as else","no, else cannot be used with except","no, else must come before except",yes,"https://www.sanfoundry.com/python-questions-answers-exception-handling/
+https://docs.python.org/3/tutorial/errors.html "
+19,OOPS,Python Functions,What Is The Default Return Value For A Function That Does Not Return Any Value Explicitly?,,MCQ,4,int,double,public,None,
+20,OOPS,Python Functions,Which of The Following Items Are Present In The Function Header?,,MCQ,2,function name,function name and parameter list,parameter list,return value,
+21,OOPS,Python Functions,Which of The Following Enclose The Input Parameters Or Arguments Of A Function?,,MCQ,2,brackets,parentheses,curly braces,quotation marks,
+22,OOPS,Python Functions,Which of The Following Keywords Marks The Beginning Of The Function Block?,,MCQ,3,fun,define,def,function,
+23,OOPS,Python Functions,"What Is The Name Given To That Area Of Memory, Where The System Stores The Parameters And Local Variables Of A Function Call?",,MCQ,3,a heap,storage area,a stack,an array,
+24,OOPS,Python Functions,Which of The Following Function Definition Does Not Return Any Value?,,MCQ,1,a function that prints integers from 1 to 100.,a function that returns a random integer from 1 to 100.,a function that checks whether the current second is an integer from 1 to 100.,a function that converts an uppercase letter to lowercase.,
+25,OOPS,Python Functions,Which Of The Following Would You Relate To A Function Call Made With An Argument Passed As Its Parameter?,,MCQ,2,function invocation,pass by value,pass by reference,pass by name,
+26,Data Types,Python numbers,What Is The Output Of The Following Code Snippet?,,MCQ,2,3 1,3 3,The program has a runtime error because x and y are not defined.,1 3,
+27,Data Structures,Python Tuples,Which of the following statements is used to create an empty set?,,MCQ,2,{ },set(),[ ].,( ),http://www.allindiaexams.in/engineering/cse/python-mcq/tuples-sets
+28,Data Structures,Python Tuples,Which of the following lines of code will result in an error?,,MCQ,4,s={abs},"s={4, ‘abc’, (1,2)}","s={2, 2.2, 3, ‘xyz’}",s={san},http://www.allindiaexams.in/engineering/cse/python-mcq/tuples-sets
+29,Data Structures,"Python Variable name, Operator and data types","What is answer of this expression, 22 % 3 is?",,MCQ,2,7,1,0,5,
+30,Data Structures,"Python Variable name, Operator and data types","What is the output of this expression, 3*1**3?",,MCQ,3,27,9,3,1,
+31,Data Structures,"Python Variable name, Operator and data types",Which of the following will run without errors ?,,MCQ,1,round(45.8),"round(6352.898,2,5)",round(),"round(7463.123,2,1)",
+32,Data Structures,"Python Variable name, Operator and data types",What does --------- 5 evaluate to?,,MCQ,1,(+5),(-11),(+11),(-5),
+33,Data Structures,"Python Variable name, Operator and data types",All keywords in Python are in,,MCQ,4,lower case,UPPER CASE,Capitalized,None of the mentioned,
+34,Data Structures,"Python Variable name, Operator and data types",Which of these in not a core datatype?,,MCQ,4,Lists,Dictionary,Tuples,Class,
+35,Data Structures,Python Dictionary,Which of the following statements create a dictionary?,,MCQ,4,d = {},"d = {“john”:40, “peter”:45}","d = {40:”john”, 45:”peter”}",All of the mentioned,https://www.sanfoundry.com/python-mcqs-dictionary-1/
+36,Data Structures,Python Dictionary,"Suppose d = {“john”:40, “peter”:45}, to delete the entry for “john” what command do we use",,MCQ,3,d.delete(“john”:40),d.delete(“john”),del d[“john”].,del d(“john”:40),https://www.sanfoundry.com/python-mcqs-dictionary-1/
+37,Data Structures,Python Dictionary,"Suppose d = {“john”:40, “peter”:45}. To obtain the number of entries in dictionary which command do we use?",,MCQ,2,d.size(),len(d),size(d),d.len(),https://www.sanfoundry.com/python-mcqs-dictionary-1/
+38,Data Structures,Python Dictionary,"Suppose d = {“john”:40, “peter”:45}, what happens when we try to retrieve a value using the expression d[“susan”]?",,MCQ,3,"Since “susan” is not a value in the set, Python raises a KeyError exception","It is executed fine and no exception is raised, and it returns None","Since “susan” is not a key in the set, Python raises a KeyError exception","Since “susan” is not a key in the set, Python raises a syntax error",https://www.sanfoundry.com/python-mcqs-dictionary-1/
+39,Data Structures,Python Strings,"Suppose i is 5 and j is 4, i + j is same as",,MCQ,2,i.__add(j),i.__add__(j),i.__Add(j),i.__ADD(j),
+40,Data Types,Python Operators,Which is the correct operator for power(x^y)?,,MCQ,2,X^y,X**y,X^^y,None of the mentioned,https://www.astiwz.com/quiz/11-python/133-basic-operators
+41,Data Types,Python Operators,Which one of these is floor division?,,MCQ,2,/,//,%,None of the mentioned,https://www.astiwz.com/quiz/11-python/133-basic-operators
+42,Data Types,Python Operators,What is the order of precedence in python? i) Parentheses ii) Exponential iii) Division iv) Multiplication v) Addition vi) Subtracti,,MCQ,1,"i,ii,iii,iv,v,vi","ii,i,iii,iv,v,vi","ii,i,iv,iii,v,vi","i,ii,iii,iv,vi,v",https://www.astiwz.com/quiz/11-python/133-basic-operators
+43,Data Types,Python Operators,You can perform mathematical operation on String?,,MCQ,2,TRUE,FALSE,,,https://www.astiwz.com/quiz/11-python/133-basic-operators
+44,Data Types,Python Operators,Which one of the following have the same precedence?,,MCQ,3,Addition and Subtraction,Multiplication and Division,a and b,None of the mentioned,https://www.astiwz.com/quiz/11-python/133-basic-operators
+45,Data Structures,Python List,Which of the following commands will create a list?,,MCQ,4, list1 = list(),list1 = [].,"list1 = list([1, 2, 3])",all of the mentioned,
+46,Data Structures,Python List,To shuffle the list(say list1) what function do we use ?,,MCQ,3,list1.shuffle(),shuffle(list1),random.shuffle(list1),random.shuffleList(list1),
+47,Data Structures,Python List,"Suppose list1 is [4, 2, 2, 4, 5, 2, 1, 0], Which of the following is correct syntax for slicing operation ?",,MCQ,4,print(list1[0]),print(list1[:2]),print(list1[:-2]),all of the mentioned,
+48,Data Structures,Python List,"Suppose list1 is [2, 33, 222, 14, 25], What is list1[:-1] ?",,MCQ,1,"[2, 33, 222, 14].",Error,25,"[25, 14, 222, 33, 2].",
+49,Data Structures,Python List,What is the output when we execute list(“hello”)?,,MCQ,1,"[‘h’, ‘e’, ‘l’, ‘l’, ‘o’].",[‘hello’].,[‘llo’].,[‘olleh’].,
+50,Coding Guidelines,Python Coding guidelines,Use of parentheses can change the order of evaluation ?,,MCQ,1,Yes,No,,,
+51,Coding Guidelines,Python Coding guidelines,What are the Immutable Built-In datatypes Available In Python?,,MCQ,4,Numbers,Strings,Tuples,All of the above.,https://www.techbeamers.com/python-interview-questions-programmers/
+52,Coding Guidelines,Python Coding guidelines,What are the mutable Built-In datatypes Available In Python?,,MCQ,4,List,Dictionaries,Sets,All of the above.,https://www.techbeamers.com/python-interview-questions-programmers/
+53,Coding Guidelines,Python Coding guidelines,"What Is A Function Call Or A Callable Object In Python?
+A: A function in Python gets treated as a callable object. It can allow some arguments and also return a value or multiple values in the form of a tuple. Apart from the function, Python has other constructs, such as classes or the class instances which fits in the same category.
+B: It is a Python statement which we can use for sending a value.",,MCQ,1,Only A,Only B,A & B both,None of the above,
+54,Data Structures,Python Dictionary,"Suppose you have a dictionary 
+mydict = { 'a': 1, 'b': 2, 'c': 3 }. You need to print it as a list of tupes like [(1, 'a'), (3, 'c'), (2, 'b')]. Choose the correct code fragment to do this.",,MCQ,1,"print((v, k) for k, v in mydict.items())","print((v, k) for k, v in mydict)",print(list(mydict)),print(tuple(mydict)),ACP
+55,OOPS,Python Functions,What is the output of the following code?,"def Foo(n):
+    def multiplier(x):
+        return x * n
+    return multiplier
+
+a = Foo(5)
+b = Foo(5)
+
+print(a(b(2)))",MCQ,4,25,100,10,50,
+56,OOPS,Python Functions,What is the output of the following code?,"def make_pretty(func):
+    def inner():
+        print(""I got decorated"")
+        func()
+    return inner
+
+def ordinary():
+    print(""I am ordinary"")
+   
+pretty = make_pretty(ordinary)
+pretty()",MCQ,3,I got decorated,I am pretty,"I got decorated
+I am ordinary","I am ordinary
+I got decorated",
+57,Interfaces & Packages,Python Lambda,What is the output of below program?,"def writer():
+ title = 'Sir'
+ name = (lambda x:title + ' ' + x)
+ return name
+ 
+who = writer()
+print(who('Arthur'))",MCQ,2,Arthur Sir,Sir Arthur,Arthur,None of the mentioned,
+58,Interfaces & Packages,Python Lambda,What is the following cade states,"exec((lambda x:x).func_code.__class__(0,0,0,0,""\x91\x03\x30d\x37\x13"",(),(),(),"""","""",0,""""))",MCQ,2 & 3,Some random invalid code,Valid code in python 2,A way to execute python bytecode,,
+59,Libraries,Python Numpy,What gets printed?,"import numpy as np
+
+a = np.array([[0, 1, 2], [3, 4, 5]])
+b = a.ravel()
+print (b[0,0])",MCQ,4,3,9,10,An exception is thrown,The ravel function will flatten the array into 1 dimension. Therefore indexing into it with 2 dimensions will throw an exception.
+60,Libraries,Python Numpy,What gets printed?,"import numpy as np
+
+a = np.array([[1,2,3],[0,1,4]])
+b = np.zeros((2,3), dtype=np.int16)
+c = np.ones((2,3), dtype=np.int16)
+d = a + b + c
+print (d[1,2] )",MCQ,2,1,5,8,An exception is thrown,"zeroes and ones will fill an array of specified dimensions with zeroes and ones respectively
+http://www.mypythonquiz.com/question.php?qid=367"
+61,Libraries,Python Numpy,What gets printed?,"import numpy as np
+
+a = np.array([[1,2,3],[0,1,4]])
+print (a.size)",MCQ,4,1,2,5,6,
+62,Libraries,Python Numpy,What gets printed?,"import numpy as np
+
+a = np.array([1,2,3,4,5])
+b = np.arange(0,10,2)
+c = a + b
+print (c[4])",MCQ,3,4,5,13,An exception is thrown,arange function goes from first param to 2nd param not inclusive in increments of 3rd param
+63,Libraries,Python Numpy,What gets printed?,"import numpy as np
+
+a = np.array([1,2,3,5,8])
+b = np.array([0,3,4,2,1])
+c = a + b
+c = c*a
+
+print (c[2])",MCQ,3,12,10,21,27,
+64,Libraries,Python Numpy,What gets printed?,"import numpy as np
+
+a = np.array([1,2,3,5,8])
+print (a.ndim)",MCQ,1,1,2,3,5,
+65,Regular Expression,Python Regular Expressions,What gets printed?,"import re
+sum = 0
+
+pattern = 'back'
+if re.match(pattern, 'backup.txt'):
+    sum += 1
+if re.match(pattern, 'text.back'):
+    sum += 2
+if re.search(pattern, 'backup.txt'):
+    sum += 4
+if re.search(pattern, 'text.back'):
+    sum += 8
+
+print(sum)",MCQ,3,3,7,13,15,"search will see if the pattern exists anywhere in the string, while match will only check if the pattern exists in the beginning of the string.
+http://www.mypythonquiz.com/question.php"
+66,Interfaces & Packages,Python Lambda,What is the output of this program?,"L = [lambda x: x ** 2,
+         lambda x: x ** 3,
+         lambda x: x ** 4]
+ 
+for f in L:
+ print(f(3))",MCQ,3,"27
+81
+343","6
+9
+12","9
+27
+81",None of the mentioned,
+67,Interfaces & Packages,Python Lambda,What is the output of below program?,"lamb = lambda x: x ** 3
+print(lamb(5))",MCQ,3,15,555,125,None of the mentioned,
+68,OOPS,Python Functions,What is the output of the following code?,"my_list = [1, 3, 6, 10]
+a = (x**2 for x in my_list)
+print(next(a), next(a))",MCQ,2,1 3,1 9, 1 9 36 100,1,
+69,Regular Expression,Python Regular Expressions,What is the output of the following?,"sentence = 'horses are fast'
+regex = re.compile('(?P<animal>\w+) (?P<verb>\w+) (?P<adjective>\w+)')
+matched = re.search(regex, sentence)
+print(matched.group(2))",MCQ,4,"{‘animal’: ‘horses’, ‘verb’: ‘are’, ‘adjective’: ‘fast’}","(‘horses’, ‘are’, ‘fast’)",‘horses are fast’,‘are’,
+70,Regular Expression,Python Regular Expressions,What is the output of the following?,"sentence = 'we are humans'
+matched = re.match(r'(.*) (.*?) (.*)', sentence)
+print(matched.group(3))",MCQ,3,‘are’,‘we’,‘humans’,‘we are humans’,
+71,OOPS,Python Functions,"If a function contains at least one yield statement, it becomes ______",,MCQ,2,an iterable,a generator function, an anonymous function,None of the above,
+72,OOPS,Python Functions,What are the criterias that must be met to create closure in Python?,,MCQ,4, Program Must have a function inside a function.,The nested function must refer to a value defined in the enclosing function.,The enclosing function must return the nested function.,All of the above.,
+73,OOPS,Python Functions,What is the more pythonic way to use getters and setters?,,MCQ,4,Decorators,Generators,Iterators,@property,
+74,OOPS,Python Functions,"In Python, there is a built-in function property() that returns a property object. The property object has which of the following methods?",,MCQ,2, getter() and setter(),"getter(), setter() and delete()",getter() and delete(),setter() and delete(),
+75,Framework,Django,Which option with manage.py is used to change the port number for built-in web server,,MCQ,1,runserver,runreport,serverport,portserver,https://www.vskills.in/practice/django-test
+76,Framework,Django,What significant advantage does MVC pattern offers in Django,,MCQ,1,Loose Coupling,Better abstraction,Ease of use for developer,lesser time and developer resourse requirement,
+77,Framework,Django,What is the default port used by built-in webserver in Django,,MCQ,4,80,88,8080,8000,
+78,Framework,Django,What role does world online play in context of Django,,MCQ,2,Only development,Development & guidance,Only guidance,Depends on Django USB projects,
+79,Framework,Django,Which option with Django-admin.py is used to create project directory,,MCQ,3,Project,newproject,startproject,createproject,
+80,Regular Expression,Python Regular Expressions,Which module in Python supports regular expressions?,,MCQ,1,re,regex,pyregex,none of the mentioned,"re is a part of the standard library and can be imported using: import re.
+https://www.sanfoundry.com/python-questions-answers-regular-expressions/"
+81,Regular Expression,Python Regular Expressions,Which of the following creates a pattern object?,,MCQ,3,re.create(str),re.regex(str),re.compile(str),re.assemble(str), It converts a given string into a pattern object.
+82,Regular Expression,Python Regular Expressions,What does the function re.match do?,,MCQ,1,matches a pattern at the start of the string,matches a pattern at any position in the string,such a function does not exist,none of the mentioned,
+83,Regular Expression,Python Regular Expressions,What does the function re.search do?,,MCQ,2,matches a pattern at the start of the string,matches a pattern at any position in the string,such a function does not exist,none of the mentioned,
+84,Interfaces & Packages,Python Lambda,"Python supports the creation of anonymous functions at runtime, using a construct called ",,MCQ,1,Lambda,pi,anonymous,None of the mentioned,"Python supports the creation of anonymous functions (i.e. functions that are not bound to a name) at runtime, using a construct called lambda. Lambda functions are restricted to a single expression. They can be used wherever normal functions can be used.
+https://www.sanfoundry.com/python-questions-campus-interview/"
+85,Interfaces & Packages,Python Lambda,Does Lambda contains return statements?,,MCQ,2,TRUE,FALSE,,,ambda definition does not include a return statement. it always contains an expression which is returned. Also note that we can put a lambda definition anywhere a function is expected. We don’t have to assign it to a variable at all.
+86,Interfaces & Packages,Python Lambda,Lambda is a statement?,,MCQ,2,TRUE,FALSE,,,lambda is an anonymous function in Python. Hence this statement is false.
+87,Interfaces & Packages,Python Pandas,Which of the following thing can be data in Pandas ?,,MCQ,4,a python dict,an ndarray,a scalar value, all of the Mentioned,"The passed index is a list of axis labels.
+https://www.sanfoundry.com/data-science-questions-answers-pandas-data-structure/"
+88,Interfaces & Packages,Python Pandas,Point out the correct statement:,,MCQ,2,"If data is a list, if index is passed the values in data corresponding to the labels in the index will be pulled out",NaN is the standard missing data marker used in pandas,Series acts very similarly to a array,None of the Mentioned,"If data is a dict, if index is passed the values in data corresponding to the labels in the index will be pulled out."
+89,Interfaces & Packages,Python Pandas,The result of an operation between unaligned Series will have the ________ of the indexes involved.,,MCQ,2,intersection,union,total,all of the Mentioned,
+90,Interfaces & Packages,Python Pandas,Which of the following input can be accepted by DataFrame ?,,MCQ,4,Structured ndarray,Series,DataFrame,All of the Mentioned,DataFrame is a 2-dimensional labeled data structure with columns of potentially different types.
+91,Interfaces & Packages,Python Pandas,Which of the following takes a dict of dicts or a dict of array-like sequences and returns a DataFrame ?,,MCQ,1,DataFrame.from_items,DataFrame.from_records,DataFrame.from_dict,All of the Mentioned,DataFrame.from_dict operates like the DataFrame constructor except for the orient parameter which is ‘columns’ by default.
+92,Design Pattern,Python Generators,Following statement is True or False?,"a generator function returns an generator object that is iterable, i.e., can be used as an Iterators .",MCQ,1,TRUE,FALSE,,,
+93,OOPS,Python Classes,What Will Be The Output Of The Following Code Snippet?,"class Person:
+    def __init__(self, id):
+        self.id = id
+
+sam = Person(100)
+
+sam.__dict__['age'] = 49
+
+print (sam.age + len(sam.__dict__))",MCQ,4,1,2,49,51,https://www.techbeamers.com/online-python-quiz-beginners-classes-objects/
+94,Design Pattern,Python Generators,"Will ""f()"" be printed?","def f():
+ print(""f()"")
+ yield 1
+
+f()",MCQ,2,Yes,No,,,
+95,Design Pattern,Python Generators,What will be printed?,"def f(value):
+ while True:
+  value = (yield value)
+
+a=f(10)
+print(next(a))
+print(next(a))
+print(a.send(20))",MCQ,3,"10,10","10,10,20","10,None,20","10,None,None",
+96,Design Pattern,Python Decorators,"In the code shown below, which function is the decorator?","def mk(x):
+    def mk1():
+        print(""Decorated"")
+        x()
+    return mk1
+def mk2():
+    print(""Ordinary"")
+p = mk(mk2)
+p()",MCQ,2,p(),"Decorated
+Ordinary",mk1(),mk2(),
+97,Design Pattern,Python Decorators,Identify the decorator in the snippet of code shown below.,"def sf():
+     pass
+sf = mk(sf)
+@f
+def sf():
+     return",MCQ,4,@f,F,sf(),mk,
+98,Exception Handling,Python Exception Handling,What does the following code do?,"f = open(""test.txt"")",MCQ,2,Opens test.txt file for both reading and writing,Opens test.txt file for reading only,Opens test.txt file for writing only,Opens test.txt file in god mode,
+99,Exception Handling,Python Exception Handling,"For the following code,","f = open('test.txt', 'r', encoding = 'utf-8')
+f.read()",MCQ,4,This program reads the content of test.txt file.,"If test.txt contains newline, read() will return newline as ‘\n’.",You can pass an integer to the read() method., All of the above.,
+100,Decision Making,Python Decision Making,What is the output of the following code?,"for char in 'PYTHON STRING':
+  if char == ' ':
+      break
+
+  print(char, end='')
+  
+  if char == 'O':
+      continue",MCQ,1,PYTHON,PYTHONSTRING,PYTHN,STRING,
+101,Decision Making,Python Decision Making,What is the output of the following code?,"for i in [1, 0]:
+  print(i+1)",MCQ,1,"2
+1","[2, 1]","2
+0","[2, 0]",
+102,OOPS,Python Modules,What is the output of the following piece of code?,"from math import factorial
+print(math.factorial(5))",MCQ,4,120,Nothing is printed,"Error, method factorial doesn’t exist in math module","Error, the statement should be: print(factorial(5))",https://www.sanfoundry.com/python-questions-answers-modules/
+103,Exception Handling,Python Exception Handling,What is the output of the code shown below?,"g = (i for i in range(5))
+print(type(g))",MCQ,4, class <’loop’>,class <‘iteration’>,class <’range’>,class <’generator’>,"Another way of creating a generator is to use parenthesis. Hence the output of the code shown above is: class<’generator’>.
+https://www.sanfoundry.com/python-questions-answers-exception-handling-2/"
+104,Decision Making,Python Decision Making,What is the output of the following code?,"i = sum = 0
+
+while i <= 4:
+    sum += i
+    i = i+1
+
+print(sum)",MCQ,2,0,10,4,None of the above,
+105,Exception Handling,Python Exception Handling,What is the output of the following code?,"if None:
+    print(“Hello”)",MCQ,3,FALSE,Hello,Nothing will be printed,Syntax error,
+106,Exception Handling,Python Exception Handling,The error displayed in the code shown below is:,"import itertools
+l1=(1, 2, 3)
+l2=[4, 5, 6]
+l=itertools.chain(l1, l2)
+print(next(l1))",MCQ,2,‘list’ object is not iterator,‘tuple’ object is not iterator,‘list’ object is iterator,‘tuple’ object is iterator,"The error raised in the code shown above is that: ‘tuple’ object is not iterator. Had we given l2 as argument to next, the error would have been: ‘list’ object is not iterator.
+https://www.sanfoundry.com/python-questions-answers-exception-handling-2/"
+107,Exception Handling,Python Exception Handling,What is the output of the following code?,"number = 5.0
+try:
+    r = 10/number
+    print(r)
+except:
+    print(""Oops! Error occurred."")",MCQ,2,Oops! Error occurred.,",2.0",2.0 Oops! Error occurred.,None object,
+108,Exception Handling,Python Exception Handling,What does the following code do?,os.listdir(),MCQ,3,Prints the current working directory.,Prints all directories (not files) inside the given directory.,Prints all directories and files inside the given directory.,Makes a new directory.,
+109,OOPS,Python Classes,What Will Be The Output Of The Following?,"s = ""\t\tWelcome\n""
+print(s.strip())",MCQ,4,\t\tWelcome\n,Welcome\n,\t\tWELCOME,Welcome,https://www.techbeamers.com/online-python-quiz-beginners-classes-objects/
+110,Exception Handling,Python Exception Handling,What is the output of the code shown below?,t[5],MCQ,2,IndexError,NameError,TypeError,ValeError,"The expression shown above results in a name error. This is because the name ‘t’ is not defined.
+https://www.sanfoundry.com/python-questions-answers-exception-handling-3/"
+111,Exception Handling,Python Exception Handling,What does the following code do?,"try:
+  # code that can raise error
+   pass
+  
+except (TypeError, ZeroDivisionError):
+  print(""Two"")",MCQ,3,Prints Two if exception occurs (doesn’t matter which exception).,Prints Two if exception doesn’t occur.,Prints Two if TypeError or ZeroDivisionError exception occurs.,Prints Two only if both TypeError and ZeroDivisionError exception occurs.,
+112,Decision Making,Python Decision Making,What is the output of the following code?,"while 4 == 4:
+    print('4')",MCQ,3,4 is printed once,4 is printed four times,4 is printed infinitely until program closes,Syntax error,
+113,Data Structures,Python Iterators,What are the method(s) that iterator object must implement?,,MCQ,2,__iter__(), __iter__() and __next__(),__iter__() and __super__(),"__iter__(), __super__() and __next__()",
+114,Data Structures,Python Iterators,How can you create an iterator object from a list?,,MCQ,1,By passing the given list to the iter() function.,By using a for loop.,By using a while loop.,You cannot create an iterable object from the list.,
+115,Exception Handling,Python Exception Handling,Opening a file in ‘a’ mode,,MCQ,3,opens a file for reading,opens a file for writing,opens a file for appending at the end of the file,opens a file for exclusive creation,
+116,Exception Handling,Python Exception Handling,Which of the following is correct?,,MCQ,1,An exception is an error that occurs at the runtime.,A syntax error is also an exception.,An exception is used to exclude a block of code in Python.,All of the above.,
+117,Exception Handling,Python Exception Handling,What will happen if you try to open a file that doesn’t exist?,,MCQ,3,A new file is created.,Nothing will happen.,An exception is raised.,None of the above.,
+118,Exception Handling,Python Exception Handling,Which of the following statement is true?,,MCQ,2,You cannot create custom exceptions in Python.,You can create a user-defined exception by deriving a class from Exception class.,You can create a user-defined exception by deriving a class from Error class.,None of the above.,
+119,Exception Handling,Python Exception Handling,The if...elif...else executes only one block of code among several blocks.,,MCQ,1,TRUE,FALSE,It depends on expression used.,There is no elif statement in Python.,
+120,Decision Making,Python Decision Making,"In Python, for and while loop can have optional else statement?",,MCQ,3,Only for loop can have optional else statement,Only while loop can have optional else statement,Both loops can have optional else statement,Loops cannot have else statement in Python,
+121,Decision Making,Python Decision Making,Is it better to use for loop instead of while if you are iterating through a sequence (like: list)?,,MCQ,2,"No, it’s better to use while loop.","Yes, for loop is more pythonic choice.","No, you cannot iterate through a sequence using while loop.","No, you cannot iterate through a sequence using loops.",
+122,Decision Making,Python Decision Making,Which of the following statement is true?,,MCQ,4,The break statement terminates the loop containing it.,The continue statement is used to skip the rest of the code inside the loop.,"The break and continue statements are almost always used with if, if...else and if...elif...else statements.",All of the above.,
+123,Decision Making,Python Decision Making,Which of the following statement is true about the pass statement?,,MCQ,3,The Python interpreter ignores the pass statement like comments.,The pass statement terminates the loop containing it.,"It is used as a placeholder for future implementation of functions, loops etc",All of the above.,
+124,OOPS,Python Modules,Which of these definitions correctly describes a module?,,MCQ,2,Denoted by triple quotes for providing the specification of certain program elements,Design and implementation of specific functionality to be incorporated into a program,Defines the specification of how it is to be used,Any program that reuses code,https://www.sanfoundry.com/python-questions-answers-modules/
+125,OOPS,Python Modules,What is the order of namespaces in which Python looks for an identifier?,,MCQ,2,"Python first searches the global namespace, then the local namespace and finally the built-in namespace","Python first searches the local namespace, then the global namespace and finally the built-in namespace","Python first searches the built-in namespace, then the global namespace and finally the local namespace","Python first searches the built-in namespace, then the local namespace and finally the global namespace",https://www.sanfoundry.com/python-questions-answers-modules/
+126,OOPS,Python Modules,Which of the statements about modules is false?,,MCQ,3,"In the “from-import” form of import, identifiers beginning with two underscores are private and aren’t imported",dir() built-in function monitors the items in the namespace of the main module,"In the “from-import” form of import, all identifiers regardless of whether they are private or public are imported","When a module is loaded, a compiled version of the module with file extension .pyc is automatically produced",https://www.sanfoundry.com/python-questions-answers-modules/
+127,OOPS,Python Modules,Which of the following is false about “from-import” form of import?,,MCQ,2,The syntax is: from modulename import identifier,This form of import prevents name clash,The namespace of imported module becomes part of importing module,The identifiers in module are accessed directly as: identifier,https://www.sanfoundry.com/python-questions-answers-modules/
+128,OOPS,Python Modules,Which of the following is false about “import modulename” form of import?,,MCQ,1,The namespace of imported module becomes part of importing module,This form of import prevents name clash,The namespace of imported module becomes available to importing module,The identifiers in module are accessed as: modulename.identifier,https://www.techbeamers.com/online-python-quiz-beginners-classes-objects/
+129,OOPS,Python Modules,Which of the following isn’t true about main modules?,,MCQ,4,"When a python file is directly executed, it is considered main module of a program",Main modules may import any number of modules,Special name given to main modules is: __main__,Other main modules can import main modules,https://www.techbeamers.com/online-python-quiz-beginners-classes-objects/
+130,OOPS,Python Classes,Which Of The Following Represents A Distinctly Identifiable Entity In The Real World?,,MCQ,2, A class, An object,A method,A data field,https://www.techbeamers.com/online-python-quiz-beginners-classes-objects/
+131,OOPS,Python Classes,"Which Of The Following Represents A Template, Blueprint, Or Contract That Defines Objects Of The Same Type?",,MCQ,1, A class, An object,A method,A data field,https://www.techbeamers.com/online-python-quiz-beginners-classes-objects/
+132,OOPS,Python Classes,Which Of The Following Keywords Mark The Beginning Of The Class Definition?,,MCQ,3,def,return,class,All of the above.,https://www.techbeamers.com/online-python-quiz-beginners-classes-objects/
+133,OOPS,Python Classes,Which Of The Following Is Required To Create A New Instance Of The Class?,,MCQ,1,A constructor, A class,A value-returning method ,A None method,https://www.techbeamers.com/online-python-quiz-beginners-classes-objects/
+134,OOPS,Python Classes,"Which Of The Following Can Be Used To Invoke The __init__ Method In B From A, Where A Is A Subclass Of B?",,MCQ,1 & 4,super().__init__(),super().__init__(self),B.__init__(),B.__init__(self),https://www.techbeamers.com/online-python-quiz-beginners-classes-objects/
+135,OOPS,Python Classes,_____ is used to create an object.,,MCQ,2,class,constructor,User-defined functions,In-built functions,
+136,OOPS,Python Classes,What is Instantiation in terms of OOP terminology?,,MCQ,3,Deleting an instance of class,Modifying an instance of class,Creating an instance of class,Copying an instance of class,
+137,Design Pattern,Python Decorators,The ______ symbol along with the name of the decorator function can be placed above the definition of the function to be decorated works as an alternate way for decorating a function.,,MCQ,3,#,$,@,&,
+138,Design Pattern,Python Decorators,A function with parameters cannot be decorated. State whether true or false.,,MCQ,1,TRUE,FALSE,,,
+139,Design Pattern,Python Decorators,Which of the following formatting options can be used in order to add ‘n’ blank spaces after a given string ‘S’?,,MCQ,4,print(“-ns”%S),print(“-ns”%S),print(“%ns”%S),print(“%-ns”%S),
+140,Design Pattern,Python Generators,Out if list and tuples which are mutable ?,,MCQ,2,tuples,list,both are mutable,,
+141,Exception Handling,Python Exception Handling,Which of the following is not an exception handling keyword in Python?,,MCQ,3,try,except,accept,finally,"The keywords ‘try’, ‘except’ and ‘finally’ are exception handling keywords in python whereas the word ‘accept’ is not a keyword at all.
+https://www.sanfoundry.com/python-questions-answers-exception-handling-2/"
+142,Exception Handling,Python Exception Handling,An exception is:,,MCQ,2,a special function,an object,a standard module,a module,"An exception is an object that is raised by a function signaling that an unexpected situation has occurred, that the function itself cannot handle."
+143,Exception Handling,Python Exception Handling,_______________________ exceptions are raised as a result of an error in opening a ,,MCQ,4,ValueError,TypeError,ImportError,IOError,IOError exceptions are raised as a result of an error in opening or closing a particular file.
+144,Exception Handling,Python Exception Handling,Which of the following blocks will be executed whether an exception is thrown or not?,,MCQ,3,except,else,finally,assert,"The statements in the finally block will always be executed, whether an exception is thrown or not. This clause is used to close the resources used in a code."
+145,Exception Handling,Python Exception Handling,Which of the following is not a standard exception in Python?,,MCQ,3,NameError,IOError,AssignmentError,ValueError,"NameError, IOError and ValueError are standard exceptions in Python whereas Assignment error is not a standard exception in Python."
+146,Exception Handling,Python Exception Handling,Which of the following statements is true?,,MCQ,1,The standard exceptions are automatically imported into Python programs,All raised standard exceptions must be handled in Python,"When there is a deviation from the rules of a programming language, a semantic error is thrown","If any exception is thrown in try block, else block is executed","When any exception is thrown in try block, except block is executed. If exception in not thrown in try block, else block is executed. When there is a deviation from the rules of a programming language, a syntax error is thrown. The only true statement above is: The standard exceptions are automatically imported into Python programs."
+147,OOPS,Python Functions, ----- internal python function returns the memory address of an object,,MCQ,1,id(),mem(),iter(),getobj(),ACP
+148,OOPS,Python Modules, --------- is a python module for spawning child applications and controlling them,,MCQ,1,pexpect,pip,pos,pcntrl,ACP
+149,OOPS,Python Modules, ------ is an interactive source code debugger for python,,MCQ,1,pdb,gdb,punit,pydebug,ACP
+150,OOPS,Python Modules, A ------- is a file containing python definitions and statements,,MCQ,1,module,package,header,import,ACP
+151,Data Structures,Python Tuples," Suppose d = {""kolkata"":40, ""chennai"":45,  ""gurgaon"":50},the values are __________",,MCQ,3,""" kolkata "", 40, 45, and "" chennai "", ""gurgaon"", 50","“kolkata”, “chennai”, ""gurgaon""","40,  45, 50","d = (40:""kolkata"", 45:""chennai"", 50:""gurgaon"")",ACP
+152,Data Structures,Python Tuples," Suppose d = {""kolkata"":40, ""chennai"":45},the keys are __________",,MCQ,2,""" kolkata "", 40, 45, and "" chennai """,“Kolkata” and “Chennai”,40 and 45,"d = (40:""kolkata"", 45:""chennai"")",ACP
+153,Code Analysis,Python Code Analysis,"A program is written that accepts lines as input from the user and print the lines after making the first character in the lines capitalized. But it is not getting interpreted, so not  working yet. Figure out the error(s) from the given code fragment.
+
+
+","def raw_input():
+    lines = []
+    while True:
+         s = raw_input()
+         if s:
+             lines.add(s.upper())
+         else:
+             break;
+    
+    for sentence in lines:
+         print(sentence)
+
+",MCQ,2 & 4,"Instead of s.upper, we need to write upper(s).","Instead of s.upper, we need to write s.capitalize()","Instead of raw_input(), the correct function should be input()","Instead of lines.add, it should be
+lines.append since a list object does not have any attribute called add.",ACP
+154,Exception Handling,Python Exception Handling,An exception is:,,MCQ,1,an object,a special function,a standard module,a module,ACP
+155,Code Analysis,Python Code Analysis,"Analyze the following piece of code and choose the correct output.
+
+
+","mymatrix = [[1, 2, 3, 4], [4, 5, 6, 7], [8, 9, 10, 11],[12, 13, 14, 15]]
+for i in range(0, 4):
+  print(mymatrix[i][1])
+",MCQ,1,"2
+5
+9
+13","1
+4
+8
+12","1
+4
+11
+12","2
+5
+14
+15",ACP
+156,Code Analysis,Python Code Analysis,"Analyze the following piece of code.
+","class A:
+     def __init__(self, s):
+         self.s = s
+
+     def myprint(self):
+         print(self.s)
+
+a = A(""Altran"")
+a.myprint()",MCQ,3,The program has an error because class A does not have a destructor,The program has an error because “s” is not defined in “myprint” method,The program runs fine and prints Altran,"The program has an error since the constructor is invoked with one argument, instead of two",ACP
+157,Code Analysis,Python Code Analysis,"Consider  the given code fragment. It extracts the file name and extension name from a given file name. What is the error in this code fragment?
+Suppose the given filename (that is myfilename)  is  ""myvideo.mp4. The variables ""only_file_name"", and ""only_ext_name"" finally must contain
+""myvideo"" and ""mp4"" respectively.","only_file_name = myfilename.extract('.')[0]
+only_ext_name  = myfilename.extract('.')[1]",MCQ,1,Instead of myfilename.extract it should be myfilename.split,"Instead of the given code fragment, it should be only_file_name = myfilename.extract['.']{0}
+only_ext_name  = myfilename.extract['.']{1}",Instead of myfilename.extract it should be myfilename.strtok,"Instead of the given code fragment, it should be only_file_name = split(0, myfilename)
+only_ext_name  = split(1, myfilename)",ACP
+158,Data Structures,Python List,"Consider ""sys.argv"" to pass command line arguments to a python program.What is the type of sys.argv?
+",,MCQ,1,list,string,tuple,dictionary,ACP
+159,Data Structures,Python List,"Consider ""sys.argv"" to pass command line arguments to a python program.What is the type of sys.argv?
+
+
+
+","
+",MCQ,1,list,string,tuple,dictionary,ACP
+160,Data Structures,Python List,"Consider the following piece of code 
+mycsv = ""word1,word2,word3,word4""
+myvar = mycsv.split(',')
+What is myvar?
+",,MCQ,2,An array,A List ,A Tuple,A dictionary ,ACP
+161,Data Structures,Python List,"Consider the following piece of code. What is myvar?
+
+
+","mycsv = ""word1,word2,word3,word4""
+myvar = mycsv.split(',')
+
+",MCQ,2,An array,A List ,A Tuple,A dictionary ,ACP
+162,Code Analysis,Python Code Analysis,"Consider the function shown. It takes a dictionary and a data file name as
+arguments. The dictionary consists of employee email id, a space and the name of a subject as key (all three concatenated) and the score in that subject as value. The purpose of  the function is to read a base data file of the form employee email and subject separated by comma. Then get the score of that employee in that subject from the dictionary if the entry  is there, else ""Not Done"". This is to be written to an output file. 
+The format of the Output file is email identifier, subject name and score separated by comma (and a newline at the end). Note that an employee email identifier can't have space in between but a subject name can have space in between like ""Automation in Python"".
+Based on this fill the missing code(s). A sample output can be
+virat2.gupta@altran.com, Automation Using Python, 80","def update_output(employee_score_dict, base_data_file):
+    """"""Reading Base data and getting scores from dict or Not Done""""""    
+    fin = open(base_data_file, 'r')
+    fout = open(MYOUTFILENAME,  'w')
+    #code to create mylist, which is a list of input lines
+    for email_certi in mylist:
+        cleaned_data = email_certi.strip()
+        email = cleaned_data.split("","")[0]
+        certi = cleaned_data.split("","")[1]
+        email_space_certi = email + "" "" + certi
+        #fetch score from dict for this employee with this subject.
+        #fill the line given just below
+        line_to_write = -------------------------
+        fout.write(line_to_write)
+        
+    fin.close()
+    fout.close()
+    
+",MCQ,1,""","".join(email_space_certi.split("" "", 1)) + "","" + str(score) + ""\n""",""","".join(email_space_certi.split("" "")) + "","" + str(score) + ""\n""",""","".join(email_space_certi.rsplit("" "")) + "","" + str(score) + ""\n""",No option is correct ,ACP
+163,Data Structures,Python List,"Consider the function shown. It takes a dictionary and a data file name as
+arguments. The dictionary consists of employee email id, a space and the name of a subject as key (all three concatenated) and the score in that subject as value. The purpose of  the function is to read a base data file of the form employee email and subject separated by comma. Then get the score of that employee in that subject from the dictionary if the entry  is there, else ""Not Done"". This is to be written to an output file. 
+The format of the Output file is email identifier, subject name and score separated by comma (and a newline at the end). Note that an employee email identifier can't have space in between but a subject name can have space in between like ""Automation in Python"".
+Based on this fill the missing code(s). A sample output can be
+manish6.gupta@aricent.com, Automation Using Python, 80","def update_output(employee_score_dict, base_data_file):
+    """"""Redaing Base data and getting scores from dict or Not Done""""""    
+    fin = open(base_data_file, 'r')
+    fout = open(MYOUTFILENAME,  'w')
+    #fill the line given just below. It creates a list of input lines
+    mylist = -----------
+    for email_certi in mylist:
+        cleaned_data = email_certi.strip()
+        email = cleaned_data.split("","")[0]
+        certi = cleaned_data.split("","")[1]
+        email_space_certi = email + "" "" + certi
+       
+        score =employee_score_dict.get(email_space_certi, ""Not Done"")
+        #code to create line_to_write
+        fout.write(line_to_write)
+        
+    fin.close()
+    fout.close()
+    
+",MCQ,1,list(fin),makelist(fin),lst(fin),fin.appendlist(),ACP
+164,OOPS,Python Classes,Considering python programming language which of these in not an inbuilt datatype?,,MCQ,4,Lists,Dictionary,Tuples,Class,ACP
+165,Data Structures,Python Pointer,How do you rename a file? Consider fp is a file pointer to the file.,,MCQ,2,fp.name = ‘new_name.txt’,"os.rename(existing_name, new_name)","os.rename(fp, new_name)","os.set_name(existing_name, new_name)",ACP
+166,OOPS,Python Functions,"If a function doesn’t have a return statement, which of the following does the function return?",,MCQ,3,int,null,None,An exception is thrown without the return statement,ACP
+167,OOPS,Python Functions,"If we have two sets, s1 and s2, and we want to check if all the elements of s1 are present in s2 or not, we can use the function:",,MCQ,2,s2.issubset(s1),s2.issuperset(s1),s1.issuperset(s2),s1.isset(s2),ACP
+168,Data Structures,Python Dictionary,In order to store values in terms of “key” and “value” we use what inbuilt datatype.,,MCQ,4,List,Tuple,Class,Dictionary,ACP
+169,OOPS,Python Functions,In python ------ internal function returns the list of names in the current local scope.,,MCQ,1,dir(),phelp(),getattribute(),enumerate(),ACP
+170,Code Analysis,Python Code Analysis,"What will be the output?
+","Myvar1 = {10, 20, 30, 100, 500, 600, 10}
+Myvar2 = {1000, 200, 5000, 600, 30}
+print(Myvar1 & Myvar2)",MCQ,1,"600, 30",10,"10, 10",630,ACP
+171,OOPS,Python Classes,Name the pexpect class to spawn an external child command and then interact with the child process.,,MCQ,1,spawn,dup,msgctl,vfork,ACP
+172,Data Structures,Python List,"Suppose mylist = [[0.5 * x] for x in range(0, 4)]. What are the elements of mylist?",,MCQ,4,"[0, 1, 2, 3]","[0, 1, 2, 3, 4]","[0.0, 0.5, 1.0, 1.5]","[[0.0], [0.5], [1.0], [1.5]]",ACP
+173,Data Structures,Python List,"Suppose mylist = [0.5 * x for x in range(0, 4)]. What are the elements of mylist?",,MCQ,3,"[0, 1, 2, 3]","[0, 1, 2, 3, 4]","[0.0, 0.5, 1.0, 1.5]","[0.0, 0.5, 1.0, 1.5, 2.0]",ACP
+174,Data Structures,Python List,"Suppose mylist = [1, 3, 2, 4, [5, 2, 1, 0]]
+What will mylist.pop() prints?",,MCQ,2,[1],"[5, 2, 1, 0]",[0],5,ACP
+175,Data Structures,Python List,"Suppose mylist is [1, 3, 2, 4, 5, 2, 1, 0]. What will mylist.pop() prints?",,MCQ,2,1,0,3,5,ACP
+176,Code Analysis,Python Code Analysis,"Suppose t = (1, 2, 4, 3), which of the following is incorrect?",,MCQ,2,print(t[3]),t[3] = 45,print(max(t)),print(len(t)),ACP
+177,Data Structures,Python Dictionary,"Suppose you have a dictionary 
+mydict = { 'a': 1, 'b': 2, 'c': 3 }. You need to print it as a list of tupes like [(1, 'a'), (3, 'c'), (2, 'b')]. Choose the correct code fragment to do this.",,MCQ,1,"print [(v, k) for k, v in mydict.items()]","print [(v, k) for k, v in mydict]",print list(mydict),print tuple(mydict),ACP
+178,Data Structures,Python List,"Suppose you have a list 
+mylist = [10, 20, 30, 100, 500, 600]
+You need to create a clone of this list. The correct code will be 
+",,MCQ,2,mynewlist = mylist ,mynewlist = list(mylist) ,mynewlist = fork(mylist),mynewlist = set(mylist),ACP
+179,Data Structures,Python List,"Suppose you have a list called ""mylist"" and you want to make a clone of this named ""mynewlist"". Choose the correct code to do this.",,MCQ,2,mynewlist = mylist ,mynewlist = list(mylist) ,mynewlist = fork(mylist),mynewlist = set(mylist),ACP
+180,Data Structures,Python List,Suppose you have a list mylist. How can you reverse the list?,,MCQ,1,mylist.reverse(),reverse(mylist),reverse.mylist,No option is correct ,ACP
+181,Data Structures,Python List,Suppose you have a list mylist. How can you sort the  list? (you need not create another list),,MCQ,1,mylist.sort(),sort(mylist),mylist.sorted(),sorted(mylist),ACP
+182,Data Structures,Python List,"Suppose you have a list named mylist having numbers. You want to create a new list mynewlist,  whose elements are double of the elements in mylist. (If elements of mylist are 10, 20, 30 then the elements of mynewlist will be 20, 40, 60).
+Choose the correct code fragment to do this.",,MCQ,1,mynewlist  =  [x * 2 for x in mylist],mynewlist  = 2 * mylist,mynewlist  =  [x * 2 * mylist],mynewlist = set(mylist),ACP
+183,Data Structures,Python Strings,Symbol ……….. matches the start of a string and ---------- matches the end of a string. ,,MCQ,1,^ and $,$ and ^,$ and ?,& and ^,ACP
+184,OOPS,Python Functions,The ______ function can be used to check if a file f exists,,MCQ,3,os.path.isdir(f),os.path.exists(f),os.path.isfile(f),os.isFile(f),ACP
+185,OOPS,Python Functions,The function of re.match is,,MCQ,1,Matches a pattern at the start of the string,Matches a pattern at the end of the string,Matches a pattern anywhere in the string,re.match is not available in python,ACP
+186,Data Structures,Python List,The readlines() method returns a ____________.,,MCQ,2,String object,list of lines,list of single characters,list of line numbers,ACP
+187,Data Structures,Python List,"To add 50 to the end of a list named “mylist”, we use _______. ",,MCQ,2,mylist.add(50),mylist.append(50),mylist.addLast(50),mylist.addEnd(50),ACP
+188,OOPS,Python Functions,"To read two characters from a file object myfile, we use",,MCQ,1,myfile.read(2),myfile.read(),myfile.readline(),myfile.readlines(),ACP
+189,Data Structures,Python Pass,"What does the following code fragment do?
+def a(b, c, d): pass",,MCQ,3,Defines a list and initializes it,Defines a dictionary and initializes it,Defines a function which does nothing ,Defines a class which does nothing ,ACP
+190,OOPS,Python Functions,"What is answer of this expression, 22 % 3 is, if you run it using python interpreter?",,MCQ,2,7,1,0,5,ACP
+191,OOPS,Python Modules,"What is len(""Good"")?",,MCQ,4,-1,2,3,4,ACP
+192,OOPS,Python Modules,What is the need of,"if __name__ == ""__main__"":
+ somemethod()",MCQ,3,Create new module,Define generators,"Run python module as main program
+",Create new objects,ACP
+193,OOPS,Python Classes,What is the output of the code shown below?,"g = (i for i in range(5))
+print(type(g))",MCQ,4,class <’loop’>,class <‘iteration’>, class <’range’>,class <’generator’>,ACP
+194,Code Analysis,Python Code Analysis,What is the output of the following code fragment?,"a={1:""A"",2:""B"",3:""C""}
+print(a.get(1,4))
+",MCQ,1,A,1,4,Invalid syntax for get method,ACP
+195,Code Analysis,Python Code Analysis,What is the output of the following code fragment?,"def change(one, *two):
+   print(type(two))
+change(1,2,3,4)",MCQ,1,<class 'tuple'>,<type 'int'>,<type 'dict'>,<type 'str'>,ACP
+196,Code Analysis,Python Code Analysis,What is the output of the following code fragment?,"def foo(x):
+    x[0] = ['def']
+    x[1] = ['abc']
+    return id(x)
+q = ['abc', 'def']
+print(id(q) == foo(q))
+",MCQ,1,True ,False ,Error,No other option is correct.,ACP
+197,Code Analysis,Python Code Analysis,What is the output of the following code fragment?,"def power(x, y=2):
+    r = 1
+    for i in range(y):
+       r = r * x
+    return r
+print(power(3, 3))
+",MCQ,1,27,8,1000,125,ACP
+198,Code Analysis,Python Code Analysis,What is the output of the following code fragment?,"numberGames = {}
+numberGames[(1,2,4)] = 8
+numberGames[(4,2,1)] = 10
+numberGames[(1,2)] = 12
+sum = 0
+for k in numberGames:
+    sum += numberGames[k]
+print(len(numberGames) + sum)
+",MCQ,1,33,30,40,45,ACP
+199,Code Analysis,Python Code Analysis,"What is the output of the following code fragment?
+
+","elements = [0, 1, 2]
+def incr(x):
+    return x+1
+print(list(map(incr, elements)))",MCQ,4,"[1, 2, 3]","[0, 1, 2]",error,TypeError: 'list' object is not callable,ACP
+200,Code Analysis,Python Code Analysis,"What is the output of the following code fragment?
+
+
+","def myfunction():
+    try:
+        print(""A""),
+        return
+    except:
+        print(""B""),
+    else:
+        print(""C""),
+    finally:
+        print(""D"")
+
+myfunction()
+",MCQ,1,"A  D
+",A  C,C D,B C,ACP
+201,Code Analysis,Python Code Analysis,What is the output of the following code?,"a=[13,56,17]
+a.append([87])
+a.extend([45,67])
+print(a)",MCQ,1,"[13, 56, 17, [87], 45, 67]","[13, 56, 17, 87, 45, 67]","[13, 56, 17, 87,[ 45, 67]]","[13, 56, 17, [87], [45, 67]]",ACP
+202,Code Analysis,Python Code Analysis,What is the output of the following piece of code when executed in Python shell?,"a=dict()
+a[1]",MCQ,2,1,An exception is thrown since the dictionary is empty,0,2,ACP
+203,Code Analysis,Python Code Analysis,"What is the output of the following piece of code?
+
+","mynumbers = [1, 2, 3, 4]
+mynumbers.append([5,6,7,8])
+print(len(mynumbers))
+",MCQ,2,10,5,8,The code results in a runtime error (TypeError),ACP
+204,Code Analysis,Python Code Analysis,"What is the output of the following piece of code?
+
+","mynumbers = [1, 2, 3, 4]
+mynumbers.append(5,6,7,8)
+print(len(mynumbers))
+",MCQ,4,10,5,8,The code results in a runtime error (TypeError),ACP
+205,Code Analysis,Python Code Analysis,"What is the output of the following piece of code?
+
+
+","mystring = ""Hello""
+s = mystring[::-1]
+s[0] = 'h'
+print(s)
+
+",MCQ,4,hello,hlleH,Hello,Results in a runtime error,ACP
+206,Code Analysis,Python Code Analysis,"What is the output of the following piece of code?
+
+
+","mynumbers = [1, 2, 3, 4]
+mynumbers.append([5,6,7,8])
+print(len(mynumbers))",MCQ,2,10,5,8,Throws an exception,ACP
+207,Code Analysis,Python Code Analysis,"What is the output of the following piece of code?
+
+","myname = ""aricent GGN""
+myname[1] = 'A'
+print( myname)",MCQ,4,“Aricent GGN”,“aricent GGN”,“aAicent GGN”,This results in a “TypeError”,ACP
+208,Code Analysis,Python Code Analysis,"What is the output of the following?
+","x = [""ab"", ""cd""]
+for i in x:
+    i.upper()
+print(""|"".join(x))
+",MCQ,1,"ab|cd
+","AB|CD
+",None|None,The code results in a runtime error ,ACP
+209,Code Analysis,Python Code Analysis,"What is the output of the following?
+
+","def myfunc():
+    x = ['ab', 'cd']
+    for i in x:
+        i.upper()
+    return x
+    
+def main():
+    print(myfunc())
+
+if __name__ == ""__main__"":
+    main()",MCQ,1,"[‘ab’, ‘cd’] ","[‘AB’, ‘CD’] ","[None, None] ",No other option is correct.,ACP
+210,Code Analysis,Python Code Analysis,"What is the output of the following?
+
+","def myfunc():
+    x = ['ab', 'cd']
+    nx = [i.upper() for i in x]
+    return nx
+    
+def main():
+    print(myfunc())
+
+if __name__ == ""__main__"":
+    main()",MCQ,2,"[‘ab’, ‘cd’] ","[‘AB’, ‘CD’] ","[None, None] ",No other option is correct.,ACP
+211,Code Analysis,Python Code Analysis,"What is the output of the following?
+
+","x = ['ab', 'cd']
+for i in x:
+    i.upper()
+print(x)",MCQ,1,"[‘ab’, ‘cd’] ","[‘AB’, ‘CD’] ","[None, None] ",None of the options ,ACP
+212,Code Analysis,Python Code Analysis,"What is the output of the following?
+",print('abc'.islower()),MCQ,1,TRUE,FALSE,NONE,ERROR,ACP
+213,OOPS,Python Functions,What is the use of tell() method in python?,,MCQ,1,tells you the current position within the file,tells you the end position within the file,tells you the file is opened or not,No other option is correct.,ACP
+214,Code Analysis,Python Code Analysis,What will be  the output of the following code fragment?,"class BankAccount:
+    def __init__(self, initial_balance=55):
+        self.balance = initial_balance
+    def deposit(self, amount):
+        self.balance += amount
+    def withdraw(self, amount):
+        self.balance -= amount
+    def overdrawn(self):
+        return self.balance < 0
+
+my_account = BankAccount()
+my_account.withdraw(5)
+print(my_account.balance)",MCQ,1,50,55,5,45,ACP
+215,Code Analysis,Python Code Analysis,What will be  the output of the following code fragment?,"class Parent(object):
+    x = 1
+
+class Child1(Parent):
+    pass
+
+class Child2(Parent):
+    pass
+
+print(Parent.x, Child1.x, Child2.x),
+Child1.x = 2
+print(Parent.x, Child1.x, Child2.x)",MCQ,1,1 1 1 1 2 1,2 1 2 1 2 1,1 2 1 1 2 1,1 3 1 1 2 1,ACP
+216,Code Analysis,Python Code Analysis,"What will be the ouput of the following code fragment?
+
+
+","list = [ 12 , 3 , 5 , 8 , 10 , 13 , 18 , 36 , 78 ]
+mynewlist = [x for x in list[::2] if x%2 == 0]
+print(mynewlist)
+
+
+",MCQ,1,"[12, 10, 18, 78]
+","[12, 8, 10, 18, 36, 78]
+","[12, 5, 10, 18, 78]","[12, 10, 18]",ACP
+217,Code Analysis,Python Code Analysis,what will be the output of the following code fragment?,"def myfunc(arg, *targ, **darg):
+   print(sum(targ) + arg + sum(darg.values()))
+ 
+
+myfunc(37, 2, 3, gurgaon=124, kolkata=34)",MCQ,1,"200
+",42,158,163,ACP
+218,Code Analysis,Python Code Analysis,"What will be the output of the following code fragment?
+","a = ""IT is ever growing in India""
+b = a.replace(""I"", ""i"", 1)
+print(b)",MCQ,1,iT is ever growing in India,iT is ever growing in india,IT is ever growing in India,IT is ever growing In india,ACP
+219,Code Analysis,Python Code Analysis,"What will be the output of the following code fragment?
+","def build_dict(mylistofword):
+    mydict = {}
+    for word in mylistofword:
+        mydict[word] = mydict.get(word, 0) + 1
+
+    return mydict
+
+def main():
+        mylist = [""w1"", ""w2"", ""w1"", ""w4"", ""w2""]
+        print(max(build_dict(mylist).values()))
+
+main()",MCQ,4,3,4,6,2,ACP
+220,Code Analysis,Python Code Analysis,"What will be the output of the following code fragment?
+","def f(in_str):
+    out_str = in_str.upper()
+    return True, out_str
+
+succeeded, b = f(""a"") 
+print(b, succeeded)",MCQ,1,A True,A,a True,A  1,ACP
+221,Code Analysis,Python Code Analysis,"What will be the output of the following code fragment?
+","def my_func():
+
+   """"""Docstring goes here""""""
+   print(my_func.__doc__)
+
+my_func()
+
+",MCQ,1,"Docstring goes here
+","None 
+",Python Ver 2.7,Docstring,ACP
+222,Code Analysis,Python Code Analysis,"What will be the output of the following code fragment?
+","def myfunc():
+    pass
+    
+def main():
+    print(myfunc())
+
+if __name__ == ""__main__"":
+    main()",MCQ,3,This results in a “TypeError” as output.,"Prints the type and address of the name ""myfunc""","Prints ""None""",Throws an exception,ACP
+223,Code Analysis,Python Code Analysis,"What will be the output of the following code fragment?
+","def myfunc():
+  """"""MYFUNCTION""""""
+ #Does Nothing
+pass
+
+def main():
+
+    print(myfunc.__doc__)
+
+if __name__ == ""__main__"":
+    main()
+",MCQ,1,MYFUNCTION,"Prints the type and address of the name ""myfunc""",Does Nothing,NONE,ACP
+224,Code Analysis,Python Code Analysis,"What will be the output of the following code fragment?
+","def myfunc(*args, **kwargs):
+   for a in args:
+       print(a)
+
+myfunc(1, 2, 3, gurgaon=123)",MCQ,1,"1
+2
+3",gurgaon=123,1,Results in a runtime error,ACP
+225,Code Analysis,Python Code Analysis,"What will be the output of the following code fragment?
+","def myfunc(*args, **kwargs):
+   for a in args:
+       print(a),
+
+myfunc(1, 2, 3, gurgaon=123)",MCQ,1,1 2 3,gurgaon=123,1,Results in a runtime error,ACP
+226,Code Analysis,Python Code Analysis,"What will be the output of the following code fragment?
+","list1 = [20, 30, 40]
+list2 =[20, 30, 40]
+print(list(set(list1 + list2)))",MCQ,1,"[40, 20, 30]","[40, 20, 30, 20, 40, 30]","[40, 60, 80]","[40, 60, 80, 40, 60, 80]",ACP
+227,Code Analysis,Python Code Analysis,"What will be the output of the following code fragment?
+","mylist = [1, 2, 3, 4, 5, 1, 1, 1]
+mylist.remove(1)
+print(len(mylist))",MCQ,3,4,1,7,5,ACP
+228,Code Analysis,Python Code Analysis,"What will be the output of the following code fragment?
+","mylist = [1, 2, 3, 4, 5]
+mylist.extend([0.5 * x for x in range(0, 5)])
+mylist.extend(mylist)
+print(len(mylist))",MCQ,2,10,20,30,5,ACP
+229,Code Analysis,Python Code Analysis,"What will be the output of the following code fragment?
+","mylist = [10, 20, 30, 100, 500, 600] 
+for index, item in enumerate(mylist):
+    mylist[index] = 3 * mylist[index]
+print(mylist)
+
+",MCQ,1,"[30, 60, 90, 300, 1500, 1800]","[10, 20, 90, 100, 1500, 600] ","[10, 20, 30, 100, 500, 600] ","[30, 20, 30, 100, 500, 1800] ",ACP
+230,Code Analysis,Python Code Analysis,"What will be the output of the following code fragment?
+","mylist = [10, 20, 30, 100, 500, 600]
+mynewlist = list(mylist) 
+mylist.append(800)
+print(mynewlist)",MCQ,1,"[10, 20, 30, 100, 500, 600]","[10, 20, 30, 100, 500, 600, 800]","[800,10, 20, 30, 100, 500, 600]","A runtime error (""object not found"") will be printed",ACP
+231,Code Analysis,Python Code Analysis,"What will be the output of the following code fragment?
+","mystr = ""einnegans zane""
+print(mystr.count(""n"", 0, 6))",MCQ,1,2,3,4,1,ACP
+232,Code Analysis,Python Code Analysis,"What will be the output of the following code fragment?
+","mystring = ""Hello Learning string handling ""
+mystring[0] = 'h'
+print(mystring)",MCQ,3,Hello Learning string handling,hello Learning string handling,Results in a runtime error,No given option is correct ,ACP
+233,Code Analysis,Python Code Analysis,"What will be the output of the following code fragment?
+","str=""-""
+lstr=[""This"",""string"",""will"",""be"",""joined""]
+print(str.join(lstr))",MCQ,1,This-string-will-be-joined,This-string-will-be-joined--,Thisstringwillbejoined,This---string---willbejoined,ACP
+234,Code Analysis,Python Code Analysis,"What will be the output of the following code fragment?
+","str1 = 'hello'
+str2 = ','
+str3 = 'world'
+str4 = str1 + str3 
+print(str4[::-1])",MCQ,3,helloworld,worldhello,dlrowolleh,Results in a runtime error,ACP
+235,Data Structures,Python Dictionary,"What will be the output of the following code fragment?
+","mydict = {}
+mydict['mumbai'] = 18
+mydict['delhi'] = 16
+mydict['kolkata'] = 14
+mydict['chennai'] = 8
+del mydict['chennai']
+print(mydict[chennai])",MCQ,4,-1,8,0,"Results in a  runtime error (""NameError"") ",ACP
+236,Code Analysis,Python Code Analysis,"What will be the output of the following code fragment?
+
+","class A:
+    def f(self):
+        return self.g()
+
+    def g(self):
+        return 'A'
+
+class B(A):
+    def g(self):
+        return 'B'
+
+a = A()
+b = B()
+print(a.f(), b.f())
+print(a.g(), b.g())",MCQ,1,A B A B,B A A B,A B,"A runtime error (""object not found"") will be printed",ACP
+237,Code Analysis,Python Code Analysis,"What will be the output of the following code fragment?
+
+","def build_dict(mylistofword):
+    mydict = {}
+    for word in mylistofword:
+        mydict[word] = mydict.get(word, 0) + 1
+
+    return mydict
+
+def main():
+        mylist = [""w1"", ""w2"", ""w1"", ""w4"", ""w2"", ""w1""]
+        mydict = build_dict(mylist)
+        mydict.pop(""w1"")
+        del mydict[""w2""]
+        print(max(mydict.values()))   
+main()",MCQ,4,3,2,"Results in a  runtime error (""NameError"") ",1,ACP
+238,Data Structures,Python Dictionary,"What will be the output of the following code fragment?
+
+","def build_dict(mylistofword):
+    mydict = {}
+    for word in mylistofword:
+        mydict[word] = mydict.get(word, 0) + 1
+
+    return mydict
+
+def main():
+        mylist = [""w1"", ""w2"", ""w1"", ""w4"", ""w2""]
+        print(max(build_dict(mylist).values()))
+
+main()",MCQ,4,3,4,6,2,ACP
+239,Data Structures,Python Dictionary,"What will be the output of the following code fragment?
+
+","def build_dict(mylistofword):
+    mydict = {}
+    for word in mylistofword:
+        mydict[word] = mydict[word]  + 1
+
+    return mydict
+
+def main():
+        mylist = [""w1"", ""w2""]
+        print(sum(build_dict(mylist).values()))
+
+main()
+",MCQ,4,2,4,3,"Results in a ""KeyError""",ACP
+240,Code Analysis,Python Code Analysis,"What will be the output of the following code fragment?
+
+","myname = ""aricent GGN""
+myname[1] = 'A'
+print(myname)",MCQ,4,“Aricent GGN”,“aricent GGN”,“aAicent GGN”,This results in a “TypeError”,ACP
+241,Code Analysis,Python Code Analysis,"What will be the output of the following code fragment?
+
+","myname = ""Altran""
+print(myname[:2] + myname[2:])
+
+",MCQ,4,Alttran,Altrn,Alltran,Altran,ACP
+242,Code Analysis,Python Code Analysis,"What will be the output of the following code fragment?
+
+","prices = {'apple': 2, 'banana': 1, 'orange': 2}
+my_purchase = {
+    'apple': 2,
+    'banana': 6,
+    'orange':10}
+grocery_bill = 0
+for fruit in my_purchase:
+        grocery_bill = grocery_bill + (prices[fruit] * my_purchase[fruit])
+
+print(grocery_bill)
+
+
+",MCQ,4,"Results in a  runtime error (""NameError"") ",26,20,30,ACP
+243,Code Analysis,Python Code Analysis,"What will be the output of the following code fragment?
+
+ ","mylist = [10, 20, 30, 100, 500, 600]
+mynewlist = mylist 
+mylist.append(800)
+print(mynewlist)",MCQ,1,"[10, 20, 30, 100, 500, 600, 800]","[10, 20, 30, 100, 500, 600]","[800,10, 20, 30, 100, 500]",No other option is correct.,ACP
+244,Code Analysis,Python Code Analysis,"What will be the output of the following code fragment?
+
+
+","def f(in_str):
+    out_str = in_str.upper()
+    return  out_str
+
+mynewstr  = f(""a"")
+print(mynewstr[0])",MCQ,1,A ,a,B,The code results in a runtime error ,ACP
+245,Code Analysis,Python Code Analysis,What will be the output of the following code fragment?,"def rs(a_string):
+    ns = ''
+    i = len(a_string)
+    while i:
+        i -= 1                    
+        ns += a_string[i] 
+    return ns
+    
+print(rs(""aricent""))",MCQ,1,tnecira,anecirt,arecint,aricent,ACP
+246,Code Analysis,Python Code Analysis,What will be the output of the following code fragment?,"mymatrix = [[1, 2, 3, 4], [4, 5, 6, 7], [8, 9, 10, 11],[12, 13, 14, 15], [100, 101, 102, 103]]
+for i in range(0, 5):
+  print(mymatrix[i][1])",MCQ,4,1 4 8 12 100,1 4 11 12 102,2 4 8 13 101,2 5 9 13 101,ACP
+247,Code Analysis,Python Code Analysis,"What will be the output of the following code fragment?
+
+
+ ","t = ('275', '54000','5000')
+lst = list(t)
+lst[0] = '300'
+t = tuple(lst)
+print(t)",MCQ,1,"('300', '54000', '5000')
+
+","['300', '54000', '5000']
+
+","{'300', '54000', '5000'}","Throws an exception, since a tuple is immutable.",ACP
+248,Code Analysis,Python Code Analysis,"What will be the output of the following code fragment?
+
+
+ ","try:
+    print(""A""),
+    raise Exception(""Myexception"")
+except:
+    print(""B""),
+else:
+    print(""C""),
+finally:
+    print(""D""),",MCQ,1,"A B D
+","A B C D
+",B C D,A,ACP
+249,Code Analysis,Python Code Analysis,"What will be the output of the following code fragment?
+
+
+ ","try:
+    print(""A""),
+except:
+    print(""B""),
+else:
+    print(""C""),
+finally:
+    print(""D"")
+",MCQ,1,"A C D
+","A B C D
+",B C D,A,ACP
+250,Code Analysis,Python Code Analysis,"What will be the output of the following code fragment?
+
+","def f(in_str):
+    out_str = in_str.upper()
+    return  out_str
+
+mynewstr  = f(""a"")
+print(mynewstr[0])",MCQ,1,A ,a,B,The code results in a runtime error ,ACP
+251,Code Analysis,Python Code Analysis,"What will be the output of the following code fragment?
+
+","def myfunc():
+    pass
+    
+def main():
+    print(myfunc())
+
+if __name__ == ""__main__"":
+    main()",MCQ,3,This results in a “TypeError” as output.,"Prints the type and address of the name ""myfunc""","Prints ""None""",Throws an exception,ACP
+252,Code Analysis,Python Code Analysis,"What will be the output of the following code fragment?
+
+
+","mylist = [10, 20, 30, 40, 10, 60, 60]
+mynewlist = []
+for myvar in mylist:
+        if myvar not in mynewlist:
+                mynewlist.append(myvar)
+print(""+"".join(map(str, mynewlist)))
+",MCQ,1,10+20+30+40+60,"[10, 20, 30, 40, 60]",[160] ,10+ 20+30+40+10+60+ 60,ACP
+253,Code Analysis,Python Code Analysis,"What will be the output of the following piece of code?
+","count = 1
+def doThis():
+
+    global count
+
+    for i in (1, 2, 3, 4):
+        count += 1
+doThis()
+print(count)
+",MCQ,1,5,4,1,0,ACP
+254,Code Analysis,Python Code Analysis,"What will be the output of the following piece of code?
+","mycsv = ""word1,word2,word3,word4""
+myvar = mycsv.split(',')
+print(tuple(myvar))
+",MCQ,1,"('word1', 'word2', 'word3', 'word4')","['word1', 'word2', 'word3', 'word4']","word1', 'word2', 'word3', 'word4'","{'word1', 'word2', 'word3', 'word4'} ",ACP
+255,Code Analysis,Python Code Analysis,"What will be the output of the following piece of code?
+","mylist = [1, 2, 3, 4, 5]
+mylist.extend([0.5 * x for x in range(0, 5)])
+mylist.extend(mylist)
+print(len(mylist))
+",MCQ,1,20,5,10,15,ACP
+256,Code Analysis,Python Code Analysis,"What will be the output of the following piece of code?
+
+
+","mycsv = ""word1,word2,word3,word4""
+myvar = mycsv.replace("","", ""."", 1)
+print(myvar)
+
+",MCQ,1,"word1.word2,word3,word4
+","word1.word2.word3.word4
+","word1', 'word2', 'word3'.'word4'","{'word1', 'word2', 'word3', 'word4'} ",ACP
+257,Code Analysis,Python Code Analysis,"What will be the output of the following piece of code?
+
+
+
+
+","mycsv = ""word1,word2,word3,word4""
+myvar = mycsv.replace("","", ""."", 2)
+print(myvar)",MCQ,1,"word1.word2.word3,word4
+","word1.word2,word3.word4
+",".word1.word2,word3.word4.","{'word1', 'word2', 'word3', 'word4'} ",ACP
+258,Data Structures,Python Strings,What will be the output of the given code fragment?,"mylist = ['a', 'b', 'c', 'd', 'e']
+print(mylist[10:])",MCQ,1,[],Runtime Error(Index Error),Runtime Error(Type Error),NULL,ACP
+259,Code Analysis,Python Code Analysis,What will be the output of the given code fragment? ,"a=165
+b=sum(list(map(int,str(a))))
+print(b)
+",MCQ,3,561,65,12,7,ACP
+260,Code Analysis,Python Code Analysis,What will be the output of the given code fragment? ,"def ld(n):
+    n = str(n)
+    return int(n[len(n)-1])
+
+def main():
+        print(ld(891))
+
+if __name__ == ""__main__"":
+        main()
+
+
+",MCQ,2,"11
+",1,8,9,ACP
+261,Code Analysis,Python Code Analysis,What will be the output of the given code fragment? ,"def string_process(mylistofword):
+    """""" does some processing""""""
+    list_of_nums = []
+
+    for word in mylistofword:
+        if word.isdigit():
+            list_of_nums.append(word)
+
+    if list_of_nums:
+        list_of_nums = [int(x) for x in list_of_nums]
+        list_of_nums.sort()
+        return "" "".join([str(x) for x in list_of_nums])
+    else:
+        return ""NONE FOUND""
+
+print(string_process([""machine"",""ai"", ""learning""]))
+",MCQ,3,"11 22
+",machine learning,NONE FOUND,ai,ACP
+262,Code Analysis,Python Code Analysis,What will be the output of the given code fragment? ,"def try_to_change_list_contents(the_list):
+    list(the_list).extend(['four', 'five'])
+
+outer_list = ['one', 'two', 'three']
+
+try_to_change_list_contents(outer_list)
+print(outer_list)
+
+
+",MCQ,1,"
+['one', 'two', 'three']
+","['four', 'five']","['one', 'two', 'three', 'four', 'five']","['one', 'two', 'four', 'five']",ACP
+263,Code Analysis,Python Code Analysis,What will be the output of the given code fragment? ,"def try_to_change_list_contents(the_list):
+    the_list = ['four', 'five']
+
+outer_list = ['one', 'two', 'three']
+
+try_to_change_list_contents(outer_list)
+print(outer_list)
+
+
+",MCQ,1,"
+['one', 'two', 'three']
+","['four', 'five']","['one', 'two', 'three', 'four', 'five']","['one', 'two', 'four', 'five']",ACP
+264,Data Structures,Python List,What will be the output of the given code fragment? ,"def try_to_change_list_contents(the_list):
+    the_list.extend(['four', 'five'])
+
+outer_list = ['one', 'two', 'three']
+
+try_to_change_list_contents(outer_list)
+print(outer_list)
+
+
+",MCQ,3,"
+['one', 'two', 'three']
+","['four', 'five']","['one', 'two', 'three', 'four', 'five']","['one', 'two', 'four', 'five']",ACP
+265,Code Analysis,Python Code Analysis,What will be the output of the given code fragment? ,"for i in range(10):
+    if i == 5:
+        break
+    else:
+        print(i)
+else:
+    print(""Altran"")
+",MCQ,4,0 1 2 3 4 Altran,0 1 2 3 4 5 Altran,Syntax Error,0 1 2 3 4,ACP
+266,Regular Expression,Python Regular Expressions,What will be the output of the given code fragment? ,"import re
+m = re.search('a', 'India')
+print (m.re.pattern)
+",MCQ,4,{},India,No output,a,ACP
+267,Code Analysis,Python Code Analysis,What will be the output of the given code fragment? ,"n = [[9, 8, 7], [6, 5, 4], [3, 2, 1]]
+print(n[2])",MCQ,4,"[6, 5, 4]",2,7,"[3, 2, 1]",ACP
+268,Data Structures,Python Strings,What will be the output of the given code fragment? ,"print('abcdefcdghcd'.split('cd', 2))",MCQ,1,"[‘ab’, ‘ef’, ‘ghcd’].","[‘ab’, ‘efcdghcd’]"," [‘abcdef’, ‘ghcd’]",No other option is correct.,ACP
+269,Code Analysis,Python Code Analysis,What will be the output of the given code fragment? ,"x=10
+y=8
+assert x > y, 'X too small'
+",MCQ,3,Assertion Error,10 8,No output,X too small,ACP
+270,Code Analysis,Python Code Analysis,"What will be the output of the given code fragment? Suppose the user enters a line 10 20 30 30 40 40 50 50
+","def main():
+    """"""main function.""""""
+    #gets a line from user
+    myline = raw_input()
+    if myline:
+        list_myline = convert_str_to_list(myline)
+        unique_list = []
+        freq_list   = []
+        for word in list_myline:
+                if word not in unique_list:
+                        unique_list.append(word)
+                        freq_list.append(list_myline.count(word))
+
+        max_freq = max(freq_list)
+        fwmf = unique_list[freq_list.index(max_freq)]
+        print(fwmf)
+
+def convert_str_to_list(myline):
+    """""" splitting a line to a list of words""""""
+    return myline.split()
+
+
+# Entry point of the script
+if __name__ == ""__main__"":
+    main()
+",MCQ,1,30,40,50,10,ACP
+271,Data Types,Python Operators,"What would the following expression print ?
+Print(""3"" * ""bc"")
+",,MCQ,3,3bc,bcbcbc,TypeError: can't multiply sequence by non-int of type 'str',3bc3bc3bc,ACP
+272,OOPS,Python Functions,"When a class defines ----- method, class instantiation automatically invokes this method for the newly created class instance.",,MCQ,1,__init__() ,__fork__(),__self()__,__dict__(),ACP
+273,OOPS,Python Functions,Which keyword is used for defining a python  function?,,MCQ,3,func,define,def,function,ACP
+274,OOPS,Python Modules,Which module in the python standard library parses options received from the command line?,,MCQ,1,getopt,os,getarg,main,ACP
+275,OOPS,Python Constructor,Which of  the following is required to create a new instance of the class?,,MCQ,1,A constructor,A class ,A value-returning method ,A None method,ACP
+276,Data Structures,Python List,"Which of the following commands will create a python list?
+A) list1 = list()
+B) list1 = []
+C) list1 = list([1, 2, 3])",,MCQ,4,A,B,C,"A, B, C",ACP
+277,OOPS,Python Functions,Which of the following functions can be used to read data from a file using a file descriptor?,,MCQ,2,os.reader(),os.read(),os.quick_read(),os.scanf(),ACP
+278,OOPS,Python Functions,Which of the following is a feature of DocString?,,MCQ,4,"Provide a convenient way of associating documentation with Python modules, functions, classes, and methods",All functions should have a docstring,Docstrings can be accessed by the __doc__ attribute on objects,All other options are correct ,ACP
+279,OOPS,Python Functions,"Which of the following print statements will print all the names in the list given here on a separate lines
+
+names = ['kolkata', 'chennai', 'gurgaon', 'jaipur', 'mumbai']
+",,MCQ,1,"print ""\n"".join(names)","print names.join(""\n"")","print names.concatenate(""\n"")","print names.append(""\n"")",ACP
+280,OOPS,Python Functions,"Which of the following print statements will print all the names in the list given here separated by a dot (.)
+
+names = ['kolkata', 'chennai', 'gurgaon', 'jaipur', 'mumbai']
+",,MCQ,1,"print ""."".join(names)","print names.join(""."")","print names.concatenate(""."")","print names.append(""."")",ACP
+281,OOPS,Python Functions,"Which of the following print statements will print all the numbers in the list given here separated by a dot (.)
+
+mynumbers = [10, 20, 30, 40, 50, 60]
+",,MCQ,4,"print ""."".join(mynumbers)","print mynumbers.join(""."")","print mynumbers.concatenate(""."")","print ""."".join(map(str, mynumbers))",ACP
+282,Data Structures,Python Set,"Which of the following statements produces {'a', 'b', 'c'}?",,MCQ,3,"list(""abac"")","tuple(""abac"")","set(""abac"")",No option is correct ,ACP
+283,Data Structures,Python Dictionary,Which of these about a python  dictionary is false?,,MCQ,2,The values of a dictionary can be accessed using keys,The keys of a dictionary can be accessed using values,Dictionaries aren’t ordered,Dictionaries are mutable,ACP
+284,OOPS,Python Modules,Which of these is the definition for packages in Python?,,MCQ,1,A folder of python modules,A set of programs making use of Python modules,A set of main modules,A number of files containing Python definitions and statements,ACP
+285,Data Structures,Python List,Write a list comprehension for producing a list of numbers between 1 and 1000 that are divisible by 3,,MCQ,2,"[x in range(1, 1000) if x%3==0]",[x for x in range(1000) if x%3==0],"[x%3 for x in range(1, 1000)]","[x%3=0 for x in range(1, 1000)]",ACP
+286,OOPS,Python Functions,"You need to define a function, which can concatenate any number of arguments passed in the function and print that.
+A code is shown below. Choose the correct observation based on the code and requirement.","def str_concat(*myargs):
+        print(''.join(myargs))",MCQ,1,"The function definition is fine.
+","instead of def *myargs in the function definition it should be myargs
+",instead of def *myargs in the function definition it should be **myargs,None of the observation mentioned is correct.,ACP
+287,Framework,Django,Explain how you can set up the Database in Django.,,Descriptive,1,"You can use the command edit mysite/setting.py , it is a normal python module with module level representing Django settings.
+Django uses SQLite by default; it is easy for Django users as such it won’t require any other type of installation. In the case your database choice is different that you have to the following keys in the DATABASE ‘default’ item to match your database connection settings.
+• Engines: you can change database by using ‘django.db.backends.sqlite3’ , ‘django.db.backeneds.mysql’, ‘django.db.backends.postgresql_psycopg2’, ‘django.db.backends.oracle’ and so on
+• Name: The name of your database. In the case if you are using SQLite as your database, in that case database will be a file on your computer, Name should be a full absolute path, including file name of that file.
+• If you are not choosing SQLite as your database then settings like Password, Host, User, etc. must be added.
+Django uses SQLite as default database, it stores data as a single file in the filesystem. If you do have a database server—PostgreSQL, MySQL, Oracle, MSSQL—and want to use it rather than SQLite, then use your database’s administration tools to create a new database for your Django project. Either way, with your (empty) database in place, all that remains is to tell Django how to use it.
+This is where your project’s settings.py file comes in.
+We will add the following lines of code to the setting.py file:
+1
+2
+3
+4
+5
+6 DATABASES = {
+     'default': {
+          'ENGINE' : 'django.db.backends.sqlite3',
+          'NAME' : os.path.join(BASE_DIR, 'db.sqlite3'),
+     }
+}",,,,
+288,Framework,Django,Mention what the Django templates consists of.,,Descriptive,1,"The template is a simple text file.  It can create any text-based format like XML, CSV, HTML, etc.  A template contains variables that get replaced with values when the template is evaluated and tags (% tag %) that controls the logic of the template.",,,,
+289,Framework,Django,List out the inheritance styles in Django.,,Descriptive,1,"In Django, there is three possible inheritance styles:
+1. Abstract Base Classes: This style is used when you only wants parent’s class to hold information that you don’t want to type out for each child model.
+2. Multi-table Inheritance: This style is used If you are sub-classing an existing model and need each model to have its own database table.
+3. Proxy models: You can use this model, If you only want to modify the Python level behavior of the model, without changing the model’s fields.",,,,
+290,Framework,Flask,"Mention the differences between Django, Pyramid and Flask.",,Descriptive,1,"Flask is a “microframework” primarily build for a small application with simpler requirements. In flask, you have to use external libraries. Flask is ready to use.
+• Pyramid is built for larger applications. It provides flexibility and lets the developer use the right tools for their project. The developer can choose the database, URL structure, templating style and more. Pyramid is heavy configurable.
+• Django can also use for larger applications just like Pyramid. It includes an ORM.",,,,
+291,Framework,Flask,Explain what is Flask & its benefits?,,Descriptive,1,"Flask is a web micro framework for Python based on ""Werkzeug, Jinja 2 and good intentions"" BSD licensed. Werkzeug and jingja are two of its dependencies.
+Flask is part of the micro-framework. Which means it will have little to no dependencies on external libraries. It makes the framework light while there is little dependency to update and less security bugs.",,,,
+292,Framework,Flask,Mention what is Flask-WTF and what are their features?,,Descriptive,1,"Flask-WTF offers simple integration with WTForms. Features include for Flask WTF are
+• Integration with wtforms
+• Secure form with csrf token
+• Global csrf protection
+• Internationalization integration
+• Recaptcha supporting
+• File upload that works with Flask Uploads",,,,
+293,Framework,Flask,Explain how you can access sessions in Flask?,,Descriptive,1,"A session basically allows you to remember information from one request to another. In a flask, it uses a signed cookie so the user can look at the session contents and modify. The user can modify the session if only it has the secret key Flask.secret_key.",,,,
+294,Concurrency,MultiThreading,How is Multithreading achieved in Python?,,Descriptive,1,"1. Python has a multi-threading package but if you want to multi-thread to speed your code up, then it’s usually not a good idea to use it.
+2. Python has a construct called the Global Interpreter Lock (GIL). The GIL makes sure that only one of your ‘threads’ can execute at any one time. A thread acquires the GIL, does a little work, then passes the GIL onto the next thread.
+3. This happens very quickly so to the human eye it may seem like your threads are executing in parallel, but they are really just taking turns using the same CPU core.
+4. All this GIL passing adds overhead to execution. This means that if you want to make your code run faster then using the threading package often isn’t a good idea.",,,,
+295,Libraries,Numpy,What advantages do NumPy arrays offer over (nested) Python lists?,,Descriptive,1,"1. Python’s lists are efficient general-purpose containers. They support (fairly) efficient insertion, deletion, appending, and concatenation, and Python’s list comprehensions make them easy to construct and manipulate.
+2. They have certain limitations: they don’t support “vectorized” operations like elementwise addition and multiplication, and the fact that they can contain objects of differing types mean that Python must store type information for every element, and must execute type dispatching code when operating on each element.
+3. NumPy is not just more efficient; it is also more convenient. You get a lot of vector and matrix operations for free, which sometimes allow one to avoid unnecessary work. And they are also efficiently implemented.
+4. NumPy array is faster and You get a lot built in with NumPy, FFTs, convolutions, fast searching, basic statistics, linear algebra, histograms, etc. ",,,,
+296,Libraries,Numpy,What is the difference between NumPy and SciPy?,,Descriptive,1,"1. In an ideal world, NumPy would contain nothing but the array data type and the most basic operations: indexing, sorting, reshaping, basic elementwise functions, et cetera.
+2. All numerical code would reside in SciPy. However, one of NumPy’s important goals is compatibility, so NumPy tries to retain all features supported by either of its predecessors.
+3. Thus NumPy contains some linear algebra functions, even though these more properly belong in SciPy. In any case, SciPy contains more fully-featured versions of the linear algebra modules, as well as many other numerical algorithms.
+4. If you are doing scientific computing with python, you should probably install both NumPy and SciPy. Most new features belong in SciPy rather than NumPy.",,,,
+297,Libraries,Numpy,How do you make 3D plots/visualizations using NumPy/SciPy?,,Descriptive,1,"Like 2D plotting, 3D graphics is beyond the scope of NumPy and SciPy, but just as in the 2D case, packages exist that integrate with NumPy. Matplotlib provides basic 3D plotting in the mplot3d subpackage, whereas Mayavi provides a wide range of high-quality 3D visualization features, utilizing the powerful VTK engine.",,,,
+298,OOPS,Python Classes,Explain Inheritance in Python with an example.,,Descriptive,1,"Inheritance allows One class to gain all the members (say attributes and methods) of another class. Inheritance provides code reusability, makes it easier to create and maintain an application. The class from which we are inheriting is called super-class and the class that is inherited is called a derived / child class.
+They are different types of inheritance supported by Python:
+1. Single Inheritance – where a derived class acquires the members of a single super class.
+2. Multi-level inheritance – a derived class d1 in inherited from base class base1, and d2 are inherited from base2.
+3. Hierarchical inheritance – from one base class you can inherit any number of child classes
+4. Multiple inheritance – a derived class is inherited from more than one base class.",,,,
+299,Coding Analysis,Python Coding Analysis,What are the tools that help to find bugs or perform static analysis?,,Descriptive,1,PyChecker is a static analysis tool that detects the bugs in Python source code and warns about the style and complexity of the bug. Pylint is another tool that verifies whether the module meets the coding standard.,,,,
+300,Coding Guidelines,Python Coding guidelines,What is PEP 8?,,Descriptive,1,"PEP 8 is a coding convention, a set of recommendation, about how to write your Python code more readable.",,,,
+301,Data Types,Python Datatypes,What are the built-in type does python provides?,,Descriptive,1,"There are mutable and Immutable types of Pythons built in types Mutable built-in types
+• List
+• Sets
+• Dictionaries
+Immutable built-in types
+• Strings
+• Tuples
+• Numbers",,,,
+302,Data Types,Python Datatypes,What Are the Data Types Supports in Python Language?,,Descriptive,1,"• Python Int
+• Python Float
+• Python Complex
+• Python Boolean
+• Python Dictionary
+• Python List
+• Python Tuple
+• Python Strings
+• Python Set
+Every data type in python language is internally implemented as a class
+Python language data types are categorized into two types.
+They are:
+• Fundamental Types
+• Collection Types",,,,
+303,Design Pattern,Python Decorators,Explain the use of decorators.,,Descriptive,1,"Decorators in Python are used to modify or inject code in functions or classes. Using decorators, you can wrap a class or function method call so that a piece of code can be executed before or after the execution of the original code. Decorators can be used to check for permissions, modify or track the arguments passed to a method, logging the calls to a specific method, etc.",,,,
+304,Data Structures,Python Dictionary,What is dictionary in Python?,,Descriptive,1,The built-in datatypes in Python is called dictionary. It defines one-to-one relationship between keys and values. Dictionaries contain pair of keys and their corresponding values,,,,
+305,Data Structures,Python Dictionary,What is Dict and List comprehensions are?,,Descriptive,1,They are syntax constructions to ease the creation of a Dictionary or List based on existing iterable.,,,,
+306,Framework,Flash,Explain what Flask is and its benefits?,,Descriptive,1,"Flask is a web microframework for Python based on “Werkzeug, Jinja2 and good intentions” BSD license. Werkzeug and Jinja2 are two of its dependencies. This means it will have little to no dependencies on external libraries.  It makes the framework light while there is a little dependency to update and fewer security bugs.
+A session basically allows you to remember information from one request to another. In a flask, a session uses a signed cookie so the user can look at the session contents and modify. The user can modify the session if only it has the secret key Flask.secret_key.",,,,
+307,OOPS,Python Functions,What is the usage of help() and dir() function in Python?,,Descriptive,1,"Help() and dir() both functions are accessible from the Python interpreter and used for viewing a consolidated dump of built-in functions. 
+1. Help() function: The help() function is used to display the documentation string and also facilitates you to see the help related to modules, keywords, attributes, etc.
+2. Dir() function: The dir() function is used to display the defined symbols.",,,,
+308,OOPS,Python Functions,"What does this mean: *args, **kwargs? And why would we use it?",,Descriptive,1,"We use *args when we aren’t sure how many arguments are going to be passed to a function, or if we want to pass a stored list or tuple of arguments to a function. **kwargsis used when we don’t know how many keyword arguments will be passed to a function, or it can be used to pass the values of a dictionary as keyword arguments. The identifiers argsand kwargs are a convention, you could also use *bob and **billy but that would not be wise.",,,,
+309,OOPS,Python Functions,What is the difference between range & xrange?,,Descriptive,1,"For the most part, xrange and range are the exact same in terms of functionality. They both provide a way to generate a list of integers for you to use, however you please. The only difference is that range returns a Python list object and x range returns an xrange object.
+This means that xrange doesn’t actually generate a static list at run-time like range does. It creates the values as you need them with a special technique called yielding. This technique is used with a type of object known as generators. That means that if you have a really gigantic range you’d like to generate a list for, say one billion, xrange is the function to use.
+This is especially true if you have a really memory sensitive system such as a cell phone that you are working with, as range will use as much memory as it can to create your array of integers, which can result in a Memory Error and crash your program. It’s a memory hungry beast.",,,,
+310,OOPS,Python Functions,What is map function in Python?,,Descriptive,1,"map function executes the function given as the first argument on all the elements of the iterable given as the second argument. If the function given takes in more than 1 argument, then many iterables are given. ",,,,
+311,OOPS,Python Functions,What is pass in Python?,,Descriptive,1,"Pass means, no-operation Python statement, or in other words it is a place holder in compound statement, where there should be a blank left and nothing has to be written there.",,,,
+312,Data Structures,Python Iterators,In Python what are iterators?,,Descriptive,1,"In Python, iterators are used to iterate a group of elements, containers like list.",,,,
+313,Interfaces & Packages,Python Lambda,Why lambda forms in python does not have statements?,,Descriptive,1,A lambda form in python does not have statements as it is used to make new function object and then return them at runtime.,,,,
+314,Interfaces & Packages,Python Lambda,What is Anonymous Function or Lambda Function?,,Descriptive,1,A function which doesn’t contain any name is known as an anonymous function lambda function,,,,
+315,Libraries,Python Libraries,How to Save An Image Locally Using Python Whose URL Address I Already Know?,,Descriptive,1,"We will use the following code to save an image locally from an URL address
+import urllib.request
+urllib.request.urlretrieve(""URL"", ""local-filename.jpg"")",,,,
+316,Data Structures,Python List,What is the difference between list and tuples?,,Descriptive,1,"LIST
+Lists are mutable i.e. they can be edited.
+Lists are slower than tuples.
+Syntax: list_1 = [10, ‘Chelsea’, 20]
+
+
+TUPLES
+Tuples are immutable (tuples are lists which can’t be edited).
+Tuples are faster than list.
+Syntax: tup_1 = (10, ‘Chelsea’ , 20)",,,,
+317,Data Structures,Python Memory,How is memory managed in Python?,,Descriptive,1,"1. Memory management in python is managed by Python private heap space. All Python objects and data structures are located in a private heap. The programmer does not have access to this private heap. The python interpreter takes care of this instead.
+2. The allocation of heap space for Python objects is done by Python’s memory manager. The core API gives access to some tools for the programmer to code.
+3. Python also has an inbuilt garbage collector, which recycles all the unused memory and so that it can be made available to the heap space.",,,,
+318,OOPS,Python Modules,"Whenever Python exits, why isn’t all the memory de-allocated?",,Descriptive,1,"1. Whenever Python exits, especially those Python modules which are having circular references to other objects or the objects that are referenced from the global namespaces are not always de-allocated or freed.
+2. It is impossible to de-allocate those portions of memory that are reserved by the C library.
+3. On exit, because of having its own efficient clean up mechanism, Python would try to de-allocate/destroy every other object.",,,,
+319,OOPS,Python Modules,What is monkey patching in Python?,,Descriptive,1,"In Python, the term monkey patch only refers to dynamic modifications of a class or module at run-time.",,,,
+320,Data Types,Python Namespace,What is namespace in Python?,,Descriptive,1,"In Python, every name introduced has a place where it lives and can be hooked for. This is known as namespace. It is like a box where a variable name is mapped to the object placed. Whenever the variable is searched out, this box will be searched, to get corresponding object.",,,,
+321,Data Types,Python Namespace,Name the four main types of namespaces in Python?,,Descriptive,1,"• Global,
+• Local,
+• Module and
+• Class namespaces.",,,,
+322,OOPS,Python Object,What is pickling and unpickling?,,Descriptive,1,"Pickle module accepts any Python object and converts it into a string representation and dumps it into a file by using dump function, this process is called pickling. While the process of retrieving original Python objects from the stored string representation is called unpickling.",,,,
+323,OOPS,Python Object,How are arguments passed by value or by reference?,,Descriptive,1,"Everything in Python is an object and all variables hold references to the objects. The references values are according to the functions; as a result, you cannot change the value of the references. However, you can change the objects if it is mutable.",,,,
+324,Data Types,Python Operators,How can the ternary operators be used in python?,,Descriptive,1,"The Ternary operator is the operator that is used to show the conditional statements. This consists of the true or false values with a statement that has to be evaluated for it.
+Syntax:
+The Ternary operator will be given as:
+[on_true] if [expression] else [on_false]x, y = 25, 50big = x if x < y else y
+Example:
+The expression gets evaluated like if x<y else y, in this case if x<y is true then the value is returned as big=x and if it is incorrect then big=y will be sent as a result.",,,,
+325,Data Structures,Python Strings,"Explain split(), sub(), subn() methods of “re” module in Python.",,Descriptive,1,"To modify the strings, Python’s “re” module is providing 3 methods. They are:
+• split() – uses a regex pattern to “split” a given string into a list.
+• sub() – finds all substrings where the regex pattern matches and then replace them with a different string
+• subn() – it is similar to sub() and also returns the new string along with the no. of replacements.",,,,
+326,OOPS,Python Object,What is the difference between deep and shallow copy?,,Descriptive,1,"Shallow copy is used when a new instance type gets created and it keeps the values that are copied in the new instance. Shallow copy is used to copy the reference pointers just like it copies the values. These references point to the original objects and the changes made in any member of the class will also affect the original copy of it. Shallow copy allows faster execution of the program and it depends on the size of the data that is used.
+Deep copy is used to store the values that are already copied. Deep copy doesn’t copy the reference pointers to the objects. It makes the reference to an object and the new object that is pointed by some other object gets stored. The changes made in the original copy won’t affect any other copy that uses the object. Deep copy makes execution of the program slower due to making certain copies for each object that is been called.",,,,
+327,Framework,Testing Framework,What is unittest in Python?,,Descriptive,1,"A unit testing framework in Python is known as unittest. It supports sharing of setups, automation testing, shutdown code for tests, aggregation of tests into collections etc.",,,,
+328,Data Structures,Data Structure,In Python what is slicing?,,Descriptive,1,"A mechanism to select a range of items from sequence types like list, tuple, strings etc. is known as slicing.",,,,
+329,Documentation,Documentation,What is docstring in Python?,,Descriptive,1,"A Python documentation string is known as docstring, it is a way of documenting Python functions, modules and classes.",,,,
