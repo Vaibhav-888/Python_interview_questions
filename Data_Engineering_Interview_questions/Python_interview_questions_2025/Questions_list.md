@@ -171,6 +171,48 @@ diffrence between cache and persist
 QBE account
 
 
+Barclays interview questions
+
+Internal Round :
+
+1. How to iterate a list in python
+2.How to find the count in a list 
+3.How to get a unique list
+4.Repartition and coalesce
+5.About project explain
+6. Spark optimization techniques used
+7. Syntax for performing joins
+8. given a sentence and asked to find the count for each word(word count)
+
+Round - 1 Interview (Client) : 
+
+1.Union and Union all (diff)
+2.Managed and external tables in hive (diff)
+3.Trancate and delete (diff)
+4. How union behaves in pyspark and sql 
+5. Diff b/w Row_number(),rank(),dense_rank()
+6.Repartition and Coalesce (diff)
+7. What to be used when we have write the target files as single file 
+8. I have 10 dates (1-10 Jan) , I want to write 10 part files where data corresponding to the dates should be saved. 
+9. Regarding version control 
+10. GitHub question : commit, commit revert, how to get the old commit code, how to take it to local.  
+
+Round - 2 Interview (Client) :
+
+1. What is indexing. 
+2. What is primary indexing and secondary indexing 
+3. Given a table 
+   a  b
+   1  1
+   2  2
+   3  3
+      4
+    asked to display only 4. 
+4. Given a table and asked to give rank according to row_number() and rank()
+5. Given a table asked to take the employee who gets highest salary
+6. Same as above asked to display minimum salaried employee. 
+
+
 
 
 
